@@ -6,6 +6,7 @@ package
 	import com.shrimp.papa.core.PapaCore;
 	import com.shrimp.papa.game.constant.GameEvent;
 	import com.shrimp.papa.game.view.GameLoader;
+	import com.shrimp.papa.game.view.Splash;
 	
 	import flash.display.Sprite;
 	import flash.display.StageAlign;
@@ -17,6 +18,7 @@ package
 	 * @author Sol
 	 *
 	 */
+	[SWF(frameRate="60",backgroundColor="#000000")]
 	public class Main extends ApplicationBase
 	{
 		public function Main()
@@ -29,14 +31,17 @@ package
 		{
 			removeEventListener(Event.ENTER_FRAME, onEnter);
 			StageManager.init(this);
+			LayerManager.lazyInit();
+			var sp:Splash = new Splash("assets/splash/splash.swf",onInit,2000);
+			addChild(sp);
 //			PapaCore.eventSender.addEventListener(GameEvent.GAME_INIT, onInit);
 //			PapaCore.getInstance().init();
 //			PapaCore.getInstance().start();
 		}
 
-//		protected function onInit(event:Event):void
-//		{
-//			trace("hello");
-//		}
+		protected function onInit(event:Event=null):void
+		{
+			trace("hello");
+		}
 	}
 }
