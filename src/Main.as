@@ -7,6 +7,7 @@ package
 	import com.shrimp.papa.game.constant.GameEvent;
 	import com.shrimp.papa.game.view.GameLoader;
 	import com.shrimp.papa.game.view.Splash;
+	import com.sticksports.nativeExtensions.gameCenter.GameCenter;
 	
 	import flash.display.Sprite;
 	import flash.display.StageAlign;
@@ -29,11 +30,13 @@ package
 
 		protected function onEnter(event:Event):void
 		{
+			
 			removeEventListener(Event.ENTER_FRAME, onEnter);
 			StageManager.init(this);
 			LayerManager.lazyInit();
 			var sp:Splash = new Splash("assets/splash/splash.swf",onInit,2000);
-			addChild(sp);
+			LayerManager.getLayerByName(LayerManager.LAYER_VIEW).addChild(sp);
+			
 //			PapaCore.eventSender.addEventListener(GameEvent.GAME_INIT, onInit);
 //			PapaCore.getInstance().init();
 //			PapaCore.getInstance().start();
