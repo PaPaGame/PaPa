@@ -1,0 +1,1507 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<sim-project version="6.85" multi-file="no">
+  <meta>
+    <name>Papa Jump</name>
+    <authors> </authors>
+    <description />
+  </meta>
+  <management>
+    <persons>
+      <person id="P978479d830694b0b9456dfbde74ced6d">
+        <first-name />
+        <last-name />
+        <role />
+        <e-mail />
+        <phone-number />
+        <description />
+        <color>#00000000</color>
+      </person>
+    </persons>
+    <tasks />
+    <requirements />
+    <issues />
+    <to-dos />
+  </management>
+  <glossary />
+  <types>
+    <type-sets>
+      <type-set file="UmlTypes.xml" />
+    </type-sets>
+    <custom-types />
+  </types>
+  <filters />
+  <items>
+    <item id="di183284245655031420" cid="STR001" type="mind-map-start" name="PapaJump" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P978479d830694b0b9456dfbde74ced6d" creation-date="09/03/2014 23:53:40">
+      <stereotypes />
+      <tagged-values />
+      <associated-diagrams />
+      <owned-items />
+      <style class="default" />
+    </item>
+    <item id="di914535253487889323" cid="NOD001" type="mind-map-node" name="人物" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P978479d830694b0b9456dfbde74ced6d" creation-date="09/03/2014 23:54:47">
+      <stereotypes />
+      <tagged-values />
+      <associated-diagrams />
+      <owned-items />
+      <style class="default" />
+    </item>
+    <item id="di688792310385876278" cid="EDG001" type="mind-map-edge" name="" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P978479d830694b0b9456dfbde74ced6d" creation-date="09/03/2014 23:54:47">
+      <stereotypes />
+      <tagged-values />
+      <associated-diagrams />
+      <owned-items />
+      <style class="default" />
+    </item>
+    <item id="di114153870518719739" cid="NOD002" type="mind-map-node" name="怪物" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P978479d830694b0b9456dfbde74ced6d" creation-date="09/03/2014 23:55:04">
+      <stereotypes />
+      <tagged-values />
+      <associated-diagrams />
+      <owned-items />
+      <style class="default" />
+    </item>
+    <item id="di457236614495826195" cid="EDG002" type="mind-map-edge" name="" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P978479d830694b0b9456dfbde74ced6d" creation-date="09/03/2014 23:55:04">
+      <stereotypes />
+      <tagged-values />
+      <associated-diagrams />
+      <owned-items />
+      <style class="default" />
+    </item>
+    <item id="di694623853892027950" cid="NOD003" type="mind-map-node" name="跳板" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P978479d830694b0b9456dfbde74ced6d" creation-date="09/03/2014 23:55:10">
+      <stereotypes />
+      <tagged-values />
+      <associated-diagrams />
+      <owned-items />
+      <style class="default" />
+    </item>
+    <item id="di656300713408030581" cid="EDG003" type="mind-map-edge" name="" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P978479d830694b0b9456dfbde74ced6d" creation-date="09/03/2014 23:55:10">
+      <stereotypes />
+      <tagged-values />
+      <associated-diagrams />
+      <owned-items />
+      <style class="default" />
+    </item>
+    <item id="di666124613165313828" cid="NOD004" type="mind-map-node" name="金币" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P978479d830694b0b9456dfbde74ced6d" creation-date="09/03/2014 23:55:22">
+      <stereotypes />
+      <tagged-values />
+      <associated-diagrams />
+      <owned-items />
+      <style class="default" />
+    </item>
+    <item id="di653479793357713119" cid="EDG004" type="mind-map-edge" name="" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P978479d830694b0b9456dfbde74ced6d" creation-date="09/03/2014 23:55:22">
+      <stereotypes />
+      <tagged-values />
+      <associated-diagrams />
+      <owned-items />
+      <style class="default" />
+    </item>
+    <item id="di573556058394442768" cid="NOD005" type="mind-map-node" name="引擎" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P978479d830694b0b9456dfbde74ced6d" creation-date="09/03/2014 23:55:36">
+      <stereotypes />
+      <tagged-values />
+      <associated-diagrams />
+      <owned-items />
+      <style class="default" />
+    </item>
+    <item id="di522488780588157231" cid="EDG005" type="mind-map-edge" name="" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P978479d830694b0b9456dfbde74ced6d" creation-date="09/03/2014 23:55:36">
+      <stereotypes />
+      <tagged-values />
+      <associated-diagrams />
+      <owned-items />
+      <style class="default" />
+    </item>
+    <item id="di747448289695808368" cid="NOD006" type="mind-map-node" name="金币" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P978479d830694b0b9456dfbde74ced6d" creation-date="09/03/2014 23:55:57">
+      <stereotypes />
+      <tagged-values />
+      <associated-diagrams />
+      <owned-items />
+      <style class="default" />
+    </item>
+    <item id="di197651627552902804" cid="EDG006" type="mind-map-edge" name="" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P978479d830694b0b9456dfbde74ced6d" creation-date="09/03/2014 23:55:57">
+      <stereotypes />
+      <tagged-values />
+      <associated-diagrams />
+      <owned-items />
+      <style class="default" />
+    </item>
+    <item id="di798743484465249666" cid="NOD007" type="mind-map-node" name="银币" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P978479d830694b0b9456dfbde74ced6d" creation-date="09/03/2014 23:56:05">
+      <stereotypes />
+      <tagged-values />
+      <associated-diagrams />
+      <owned-items />
+      <style class="default" />
+    </item>
+    <item id="di165831580316084767" cid="EDG007" type="mind-map-edge" name="" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P978479d830694b0b9456dfbde74ced6d" creation-date="09/03/2014 23:56:05">
+      <stereotypes />
+      <tagged-values />
+      <associated-diagrams />
+      <owned-items />
+      <style class="default" />
+    </item>
+    <item id="di801271751252048390" cid="NOD008" type="mind-map-node" name="铜币" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P978479d830694b0b9456dfbde74ced6d" creation-date="09/03/2014 23:56:10">
+      <stereotypes />
+      <tagged-values />
+      <associated-diagrams />
+      <owned-items />
+      <style class="default" />
+    </item>
+    <item id="di308353331533731811" cid="EDG008" type="mind-map-edge" name="" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P978479d830694b0b9456dfbde74ced6d" creation-date="09/03/2014 23:56:10">
+      <stereotypes />
+      <tagged-values />
+      <associated-diagrams />
+      <owned-items />
+      <style class="default" />
+    </item>
+    <item id="di114684085800599254" cid="NOD009" type="mind-map-node" name="钻石" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P978479d830694b0b9456dfbde74ced6d" creation-date="09/03/2014 23:56:16">
+      <stereotypes />
+      <tagged-values />
+      <associated-diagrams />
+      <owned-items />
+      <style class="default" />
+    </item>
+    <item id="di361056782141559670" cid="EDG009" type="mind-map-edge" name="" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P978479d830694b0b9456dfbde74ced6d" creation-date="09/03/2014 23:56:16">
+      <stereotypes />
+      <tagged-values />
+      <associated-diagrams />
+      <owned-items />
+      <style class="default" />
+    </item>
+    <item id="di316844186160489613" cid="EDG011" type="mind-map-edge" name="" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P978479d830694b0b9456dfbde74ced6d" creation-date="09/03/2014 23:56:42">
+      <stereotypes />
+      <tagged-values />
+      <associated-diagrams />
+      <owned-items />
+      <style class="default" />
+    </item>
+    <item id="di319512590436294345" cid="NOD011" type="mind-map-node" name="普通跳板" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P978479d830694b0b9456dfbde74ced6d" creation-date="09/03/2014 23:56:42">
+      <stereotypes />
+      <tagged-values />
+      <associated-diagrams />
+      <owned-items />
+      <style class="default" />
+    </item>
+    <item id="di880842169128298434" cid="NOD012" type="mind-map-node" name="一次性跳板" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P978479d830694b0b9456dfbde74ced6d" creation-date="09/03/2014 23:56:54">
+      <stereotypes />
+      <tagged-values />
+      <associated-diagrams />
+      <owned-items />
+      <style class="default" />
+    </item>
+    <item id="di967254709365629858" cid="EDG012" type="mind-map-edge" name="" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P978479d830694b0b9456dfbde74ced6d" creation-date="09/03/2014 23:56:54">
+      <stereotypes />
+      <tagged-values />
+      <associated-diagrams />
+      <owned-items />
+      <style class="default" />
+    </item>
+    <item id="di960968104935754623" cid="NOD013" type="mind-map-node" name="无碰撞跳板" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P978479d830694b0b9456dfbde74ced6d" creation-date="09/03/2014 23:57:09">
+      <stereotypes />
+      <tagged-values />
+      <associated-diagrams />
+      <owned-items />
+      <style class="default" />
+    </item>
+    <item id="di613856357785906642" cid="EDG013" type="mind-map-edge" name="" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P978479d830694b0b9456dfbde74ced6d" creation-date="09/03/2014 23:57:09">
+      <stereotypes />
+      <tagged-values />
+      <associated-diagrams />
+      <owned-items />
+      <style class="default" />
+    </item>
+    <item id="di591361410393429220" cid="NOD014" type="mind-map-node" name="弹簧跳板" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P978479d830694b0b9456dfbde74ced6d" creation-date="09/03/2014 23:57:16">
+      <stereotypes />
+      <tagged-values />
+      <associated-diagrams />
+      <owned-items />
+      <style class="default" />
+    </item>
+    <item id="di983642322936862518" cid="EDG014" type="mind-map-edge" name="" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P978479d830694b0b9456dfbde74ced6d" creation-date="09/03/2014 23:57:16">
+      <stereotypes />
+      <tagged-values />
+      <associated-diagrams />
+      <owned-items />
+      <style class="default" />
+    </item>
+    <item id="di739838186686085567" cid="NOD015" type="mind-map-node" name="草皮跳板" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P978479d830694b0b9456dfbde74ced6d" creation-date="09/03/2014 23:57:24">
+      <stereotypes />
+      <tagged-values />
+      <associated-diagrams />
+      <owned-items />
+      <style class="default" />
+    </item>
+    <item id="di686206270757316409" cid="EDG015" type="mind-map-edge" name="" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P978479d830694b0b9456dfbde74ced6d" creation-date="09/03/2014 23:57:24">
+      <stereotypes />
+      <tagged-values />
+      <associated-diagrams />
+      <owned-items />
+      <style class="default" />
+    </item>
+    <item id="di321903546163813748" cid="CMT001" type="comment" name="Comment" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P978479d830694b0b9456dfbde74ced6d" creation-date="09/03/2014 23:58:52">
+      <stereotypes />
+      <tagged-values />
+      <associated-diagrams />
+      <owned-items />
+      <style class="default" />
+      <comment>跳一次就断裂</comment>
+    </item>
+    <item id="di369436089794690704" cid="CN001" type="comment-connector" name="" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P978479d830694b0b9456dfbde74ced6d" creation-date="09/03/2014 23:58:52">
+      <stereotypes />
+      <tagged-values />
+      <associated-diagrams />
+      <owned-items />
+      <style class="default" />
+    </item>
+    <item id="di181562562444202419" cid="CMT002" type="comment" name="Comment" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P978479d830694b0b9456dfbde74ced6d" creation-date="09/04/2014 00:00:00">
+      <stereotypes />
+      <tagged-values />
+      <associated-diagrams />
+      <owned-items />
+      <style class="default" />
+      <comment>增加单次跳跃高度</comment>
+    </item>
+    <item id="di339589199599931972" cid="CN002" type="comment-connector" name="" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P978479d830694b0b9456dfbde74ced6d" creation-date="09/04/2014 00:00:00">
+      <stereotypes />
+      <tagged-values />
+      <associated-diagrams />
+      <owned-items />
+      <style class="default" />
+    </item>
+    <item id="di712287367213177784" cid="CMT003" type="comment" name="Comment" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P978479d830694b0b9456dfbde74ced6d" creation-date="09/04/2014 00:00:25">
+      <stereotypes />
+      <tagged-values />
+      <associated-diagrams />
+      <owned-items />
+      <style class="default" />
+      <comment>假的,碰到也不管用</comment>
+    </item>
+    <item id="di384975939457665207" cid="CN003" type="comment-connector" name="" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P978479d830694b0b9456dfbde74ced6d" creation-date="09/04/2014 00:00:25">
+      <stereotypes />
+      <tagged-values />
+      <associated-diagrams />
+      <owned-items />
+      <style class="default" />
+    </item>
+    <item id="di564917100264376433" cid="CMT004" type="comment" name="Comment" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P978479d830694b0b9456dfbde74ced6d" creation-date="09/04/2014 00:00:49">
+      <stereotypes />
+      <tagged-values />
+      <associated-diagrams />
+      <owned-items />
+      <style class="default" />
+      <comment>碰到后,减少本次跳跃高度</comment>
+    </item>
+    <item id="di715264063198344081" cid="CN004" type="comment-connector" name="" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P978479d830694b0b9456dfbde74ced6d" creation-date="09/04/2014 00:00:49">
+      <stereotypes />
+      <tagged-values />
+      <associated-diagrams />
+      <owned-items />
+      <style class="default" />
+    </item>
+    <item id="di409161721273298054" cid="CMT005" type="comment" name="Comment" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P978479d830694b0b9456dfbde74ced6d" creation-date="09/04/2014 00:02:26">
+      <stereotypes />
+      <tagged-values />
+      <associated-diagrams />
+      <owned-items />
+      <style class="default" />
+      <comment>不同币种给予不同级别奖励</comment>
+    </item>
+    <item id="di276855534289081154" cid="CN005" type="comment-connector" name="" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P978479d830694b0b9456dfbde74ced6d" creation-date="09/04/2014 00:02:26">
+      <stereotypes />
+      <tagged-values />
+      <associated-diagrams />
+      <owned-items />
+      <style class="default" />
+    </item>
+    <item id="di758052692319884249" cid="NOD016" type="mind-map-node" name="道具" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P978479d830694b0b9456dfbde74ced6d" creation-date="09/04/2014 00:03:39">
+      <stereotypes />
+      <tagged-values />
+      <associated-diagrams />
+      <owned-items />
+      <style class="default" />
+    </item>
+    <item id="di560033297679705063" cid="EDG016" type="mind-map-edge" name="" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P978479d830694b0b9456dfbde74ced6d" creation-date="09/04/2014 00:03:39">
+      <stereotypes />
+      <tagged-values />
+      <associated-diagrams />
+      <owned-items />
+      <style class="default" />
+    </item>
+    <item id="di378999424504028622" cid="NOD017" type="mind-map-node" name="弹簧跳" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P978479d830694b0b9456dfbde74ced6d" creation-date="09/04/2014 00:22:48">
+      <stereotypes />
+      <tagged-values />
+      <associated-diagrams />
+      <owned-items />
+      <style class="default" />
+    </item>
+    <item id="di181798619651567922" cid="EDG017" type="mind-map-edge" name="" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P978479d830694b0b9456dfbde74ced6d" creation-date="09/04/2014 00:22:48">
+      <stereotypes />
+      <tagged-values />
+      <associated-diagrams />
+      <owned-items />
+      <style class="default" />
+    </item>
+    <item id="di709362387993258967" cid="NOD018" type="mind-map-node" name="N倍分" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P978479d830694b0b9456dfbde74ced6d" creation-date="09/04/2014 00:28:07">
+      <stereotypes />
+      <tagged-values />
+      <associated-diagrams />
+      <owned-items />
+      <style class="default" />
+    </item>
+    <item id="di299764153663391884" cid="EDG018" type="mind-map-edge" name="" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P978479d830694b0b9456dfbde74ced6d" creation-date="09/04/2014 00:28:07">
+      <stereotypes />
+      <tagged-values />
+      <associated-diagrams />
+      <owned-items />
+      <style class="default" />
+    </item>
+    <item id="di115231266102728204" cid="NOD019" type="mind-map-node" name="颠倒" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P978479d830694b0b9456dfbde74ced6d" creation-date="09/04/2014 00:28:22">
+      <stereotypes />
+      <tagged-values />
+      <associated-diagrams />
+      <owned-items />
+      <style class="default" />
+    </item>
+    <item id="di377408869499974941" cid="EDG019" type="mind-map-edge" name="" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P978479d830694b0b9456dfbde74ced6d" creation-date="09/04/2014 00:28:22">
+      <stereotypes />
+      <tagged-values />
+      <associated-diagrams />
+      <owned-items />
+      <style class="default" />
+    </item>
+    <item id="di836924724819597360" cid="NOD020" type="mind-map-node" name="冲刺" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P978479d830694b0b9456dfbde74ced6d" creation-date="09/04/2014 00:28:41">
+      <stereotypes />
+      <tagged-values />
+      <associated-diagrams />
+      <owned-items />
+      <style class="default" />
+    </item>
+    <item id="di427072435186469445" cid="EDG020" type="mind-map-edge" name="" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P978479d830694b0b9456dfbde74ced6d" creation-date="09/04/2014 00:28:41">
+      <stereotypes />
+      <tagged-values />
+      <associated-diagrams />
+      <owned-items />
+      <style class="default" />
+    </item>
+    <item id="di707807843309593217" cid="NOD021" type="mind-map-node" name="护盾" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P978479d830694b0b9456dfbde74ced6d" creation-date="09/04/2014 00:29:10">
+      <stereotypes />
+      <tagged-values />
+      <associated-diagrams />
+      <owned-items />
+      <style class="default" />
+    </item>
+    <item id="di742713091239056363" cid="EDG021" type="mind-map-edge" name="" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P978479d830694b0b9456dfbde74ced6d" creation-date="09/04/2014 00:29:10">
+      <stereotypes />
+      <tagged-values />
+      <associated-diagrams />
+      <owned-items />
+      <style class="default" />
+    </item>
+    <item id="di547331956774775458" cid="NOD022" type="mind-map-node" name="磁铁" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P978479d830694b0b9456dfbde74ced6d" creation-date="09/04/2014 00:29:26">
+      <stereotypes />
+      <tagged-values />
+      <associated-diagrams />
+      <owned-items />
+      <style class="default" />
+    </item>
+    <item id="di337410301316901416" cid="EDG022" type="mind-map-edge" name="" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P978479d830694b0b9456dfbde74ced6d" creation-date="09/04/2014 00:29:26">
+      <stereotypes />
+      <tagged-values />
+      <associated-diagrams />
+      <owned-items />
+      <style class="default" />
+    </item>
+    <item id="di206352761681328903" cid="NOD023" type="mind-map-node" name="开局冲刺" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P978479d830694b0b9456dfbde74ced6d" creation-date="09/04/2014 00:30:16">
+      <stereotypes />
+      <tagged-values />
+      <associated-diagrams />
+      <owned-items />
+      <style class="default" />
+    </item>
+    <item id="di414850100470371287" cid="EDG023" type="mind-map-edge" name="" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P978479d830694b0b9456dfbde74ced6d" creation-date="09/04/2014 00:30:16">
+      <stereotypes />
+      <tagged-values />
+      <associated-diagrams />
+      <owned-items />
+      <style class="default" />
+    </item>
+    <item id="di778238916141781341" cid="NOD024" type="mind-map-node" name="得分加成" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P978479d830694b0b9456dfbde74ced6d" creation-date="09/04/2014 00:30:42">
+      <stereotypes />
+      <tagged-values />
+      <associated-diagrams />
+      <owned-items />
+      <style class="default" />
+    </item>
+    <item id="di516998152793677756" cid="EDG024" type="mind-map-edge" name="" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P978479d830694b0b9456dfbde74ced6d" creation-date="09/04/2014 00:30:42">
+      <stereotypes />
+      <tagged-values />
+      <associated-diagrams />
+      <owned-items />
+      <style class="default" />
+    </item>
+    <item id="di641093726550127571" cid="NOD025" type="mind-map-node" name="死亡冲刺" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P978479d830694b0b9456dfbde74ced6d" creation-date="09/04/2014 00:31:01">
+      <stereotypes />
+      <tagged-values />
+      <associated-diagrams />
+      <owned-items />
+      <style class="default" />
+    </item>
+    <item id="di623423031945745494" cid="EDG025" type="mind-map-edge" name="" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P978479d830694b0b9456dfbde74ced6d" creation-date="09/04/2014 00:31:01">
+      <stereotypes />
+      <tagged-values />
+      <associated-diagrams />
+      <owned-items />
+      <style class="default" />
+    </item>
+    <item id="di260818447829401128" cid="NOD026" type="mind-map-node" name="复活" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P978479d830694b0b9456dfbde74ced6d" creation-date="09/04/2014 00:31:18">
+      <stereotypes />
+      <tagged-values />
+      <associated-diagrams />
+      <owned-items />
+      <style class="default" />
+    </item>
+    <item id="di535421720537734458" cid="EDG026" type="mind-map-edge" name="" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P978479d830694b0b9456dfbde74ced6d" creation-date="09/04/2014 00:31:18">
+      <stereotypes />
+      <tagged-values />
+      <associated-diagrams />
+      <owned-items />
+      <style class="default" />
+    </item>
+    <item id="di212271010848106632" cid="NOD027" type="mind-map-node" name="减速下落" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P978479d830694b0b9456dfbde74ced6d" creation-date="09/04/2014 00:31:57">
+      <stereotypes />
+      <tagged-values />
+      <associated-diagrams />
+      <owned-items />
+      <style class="default" />
+    </item>
+    <item id="di279314546258176208" cid="EDG027" type="mind-map-edge" name="" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P978479d830694b0b9456dfbde74ced6d" creation-date="09/04/2014 00:31:57">
+      <stereotypes />
+      <tagged-values />
+      <associated-diagrams />
+      <owned-items />
+      <style class="default" />
+    </item>
+    <item id="di498612854647760414" cid="NOD028" type="mind-map-node" name="抽奖" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P978479d830694b0b9456dfbde74ced6d" creation-date="09/04/2014 00:36:51">
+      <stereotypes />
+      <tagged-values />
+      <associated-diagrams />
+      <owned-items />
+      <style class="default" />
+    </item>
+    <item id="di522396241780002532" cid="EDG028" type="mind-map-edge" name="" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P978479d830694b0b9456dfbde74ced6d" creation-date="09/04/2014 00:36:51">
+      <stereotypes />
+      <tagged-values />
+      <associated-diagrams />
+      <owned-items />
+      <style class="default" />
+    </item>
+    <item id="di694500730209972332" cid="NOD029" type="mind-map-node" name="抽奖模块" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P978479d830694b0b9456dfbde74ced6d" creation-date="09/04/2014 00:39:00">
+      <stereotypes />
+      <tagged-values />
+      <associated-diagrams />
+      <owned-items />
+      <style style-name="Custom Style" shadow-type="smooth" shadow-offset="1,1" shadow-visible="true" shadow-color="#3C000000" gloss-effect="true" wrap-name-text="true" wrap-other-text="true" padding="1" glow-color="#FFFFFFFF" name-color="#FF000000" name-font="Verdana;10;B" name-horizontal-alignment="center" name-vertical-alignment="center" part-header-color="#FF1E1E1E" part-header-font="Verdana;9;I" part-header-horizontal-alignment="center" part-header-vertical-alignment="center" text-color="#FF000000" text-font="Verdana;9;" text-horizontal-alignment="left" text-vertical-alignment="center" tagged-value-color="#FF1E1E1E" tagged-value-font="Verdana;9;I" tagged-value-horizontal-alignment="center" tagged-value-vertical-alignment="center" stereotype-color="#FF1E1E1E" stereotype-font="Verdana;9;I" stereotype-horizontal-alignment="center" stereotype-vertical-alignment="center">
+        <background type="vertical-linear" color="#FFD3D3D3" color2="#FFFFFFFF" />
+        <border color="#FFFFAAAA" width="1" dash-style="Solid" />
+        <alternate-styles>
+          <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="1,1" shadow-color="#3C000000" gloss-effect="true" wrap-name-text="true" wrap-other-text="true" padding="1" glow-color="#FFFFFFFF" name-color="#FF000000" name-font="Verdana;10;B" name-horizontal-alignment="center" name-vertical-alignment="center" part-header-color="#FF1E1E1E" part-header-font="Verdana;9;I" part-header-horizontal-alignment="center" part-header-vertical-alignment="center" text-color="#FF000000" text-font="Verdana;9;" text-horizontal-alignment="left" text-vertical-alignment="center" tagged-value-color="#FF1E1E1E" tagged-value-font="Verdana;9;I" tagged-value-horizontal-alignment="center" tagged-value-vertical-alignment="center" stereotype-color="#FF1E1E1E" stereotype-font="Verdana;9;I" stereotype-horizontal-alignment="center" stereotype-vertical-alignment="center">
+            <background type="vertical-linear" color="#FF1E90FF" color2="#FF87CEFA" />
+            <border color="#FF00008B" width="1" dash-style="Solid" />
+          </alternate-style>
+        </alternate-styles>
+      </style>
+    </item>
+    <item id="di721786722560611937" cid="EDG029" type="mind-map-edge" name="" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P978479d830694b0b9456dfbde74ced6d" creation-date="09/04/2014 00:39:00">
+      <stereotypes />
+      <tagged-values />
+      <associated-diagrams />
+      <owned-items />
+      <style class="default" />
+    </item>
+    <item id="di383239291597047584" cid="CMT006" type="comment" name="Comment" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P978479d830694b0b9456dfbde74ced6d" creation-date="09/04/2014 00:39:46">
+      <stereotypes />
+      <tagged-values />
+      <associated-diagrams />
+      <owned-items />
+      <style class="default" />
+      <comment>抽到所有道具</comment>
+    </item>
+    <item id="di940949259766332725" cid="CN006" type="comment-connector" name="" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P978479d830694b0b9456dfbde74ced6d" creation-date="09/04/2014 00:39:46">
+      <stereotypes />
+      <tagged-values />
+      <associated-diagrams />
+      <owned-items />
+      <style class="default" />
+    </item>
+    <item id="di644088026164480651" cid="NOD030" type="mind-map-node" name="金币加成" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P978479d830694b0b9456dfbde74ced6d" creation-date="09/04/2014 00:40:11">
+      <stereotypes />
+      <tagged-values />
+      <associated-diagrams />
+      <owned-items />
+      <style class="default" />
+    </item>
+    <item id="di574359345376961360" cid="EDG030" type="mind-map-edge" name="" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P978479d830694b0b9456dfbde74ced6d" creation-date="09/04/2014 00:40:11">
+      <stereotypes />
+      <tagged-values />
+      <associated-diagrams />
+      <owned-items />
+      <style class="default" />
+    </item>
+    <item id="di101231324812621850" cid="NOD031" type="mind-map-node" name="成就模块" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P978479d830694b0b9456dfbde74ced6d" creation-date="09/04/2014 00:40:46">
+      <stereotypes />
+      <tagged-values />
+      <associated-diagrams />
+      <owned-items />
+      <style style-name="Custom Style" shadow-type="smooth" shadow-offset="1,1" shadow-visible="true" shadow-color="#3C000000" gloss-effect="true" wrap-name-text="true" wrap-other-text="true" padding="1" glow-color="#FFFFFFFF" name-color="#FF000000" name-font="Verdana;10;B" name-horizontal-alignment="center" name-vertical-alignment="center" part-header-color="#FF1E1E1E" part-header-font="Verdana;9;I" part-header-horizontal-alignment="center" part-header-vertical-alignment="center" text-color="#FF000000" text-font="Verdana;9;" text-horizontal-alignment="left" text-vertical-alignment="center" tagged-value-color="#FF1E1E1E" tagged-value-font="Verdana;9;I" tagged-value-horizontal-alignment="center" tagged-value-vertical-alignment="center" stereotype-color="#FF1E1E1E" stereotype-font="Verdana;9;I" stereotype-horizontal-alignment="center" stereotype-vertical-alignment="center">
+        <background type="vertical-linear" color="#FFD3D3D3" color2="#FFFFFFFF" />
+        <border color="#FFFFAAAA" width="1" dash-style="Solid" />
+        <alternate-styles>
+          <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="1,1" shadow-color="#3C000000" gloss-effect="true" wrap-name-text="true" wrap-other-text="true" padding="1" glow-color="#FFFFFFFF" name-color="#FF000000" name-font="Verdana;10;B" name-horizontal-alignment="center" name-vertical-alignment="center" part-header-color="#FF1E1E1E" part-header-font="Verdana;9;I" part-header-horizontal-alignment="center" part-header-vertical-alignment="center" text-color="#FF000000" text-font="Verdana;9;" text-horizontal-alignment="left" text-vertical-alignment="center" tagged-value-color="#FF1E1E1E" tagged-value-font="Verdana;9;I" tagged-value-horizontal-alignment="center" tagged-value-vertical-alignment="center" stereotype-color="#FF1E1E1E" stereotype-font="Verdana;9;I" stereotype-horizontal-alignment="center" stereotype-vertical-alignment="center">
+            <background type="vertical-linear" color="#FF1E90FF" color2="#FF87CEFA" />
+            <border color="#FF00008B" width="1" dash-style="Solid" />
+          </alternate-style>
+        </alternate-styles>
+      </style>
+    </item>
+    <item id="di378852381649705827" cid="EDG031" type="mind-map-edge" name="" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P978479d830694b0b9456dfbde74ced6d" creation-date="09/04/2014 00:40:46">
+      <stereotypes />
+      <tagged-values />
+      <associated-diagrams />
+      <owned-items />
+      <style class="default" />
+    </item>
+    <item id="di522551420196315379" cid="NOD032" type="mind-map-node" name="游戏记录" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P978479d830694b0b9456dfbde74ced6d" creation-date="09/04/2014 00:42:24">
+      <stereotypes />
+      <tagged-values />
+      <associated-diagrams />
+      <owned-items />
+      <style style-name="Custom Style" shadow-type="smooth" shadow-offset="1,1" shadow-visible="true" shadow-color="#3C000000" gloss-effect="true" wrap-name-text="true" wrap-other-text="true" padding="1" glow-color="#FFFFFFFF" name-color="#FF000000" name-font="Verdana;10;B" name-horizontal-alignment="center" name-vertical-alignment="center" part-header-color="#FF1E1E1E" part-header-font="Verdana;9;I" part-header-horizontal-alignment="center" part-header-vertical-alignment="center" text-color="#FF000000" text-font="Verdana;9;" text-horizontal-alignment="left" text-vertical-alignment="center" tagged-value-color="#FF1E1E1E" tagged-value-font="Verdana;9;I" tagged-value-horizontal-alignment="center" tagged-value-vertical-alignment="center" stereotype-color="#FF1E1E1E" stereotype-font="Verdana;9;I" stereotype-horizontal-alignment="center" stereotype-vertical-alignment="center">
+        <background type="vertical-linear" color="#FFD3D3D3" color2="#FFFFFFFF" />
+        <border color="#FFFFAAAA" width="1" dash-style="Solid" />
+        <alternate-styles>
+          <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="1,1" shadow-color="#3C000000" gloss-effect="true" wrap-name-text="true" wrap-other-text="true" padding="1" glow-color="#FFFFFFFF" name-color="#FF000000" name-font="Verdana;10;B" name-horizontal-alignment="center" name-vertical-alignment="center" part-header-color="#FF1E1E1E" part-header-font="Verdana;9;I" part-header-horizontal-alignment="center" part-header-vertical-alignment="center" text-color="#FF000000" text-font="Verdana;9;" text-horizontal-alignment="left" text-vertical-alignment="center" tagged-value-color="#FF1E1E1E" tagged-value-font="Verdana;9;I" tagged-value-horizontal-alignment="center" tagged-value-vertical-alignment="center" stereotype-color="#FF1E1E1E" stereotype-font="Verdana;9;I" stereotype-horizontal-alignment="center" stereotype-vertical-alignment="center">
+            <background type="vertical-linear" color="#FF1E90FF" color2="#FF87CEFA" />
+            <border color="#FF00008B" width="1" dash-style="Solid" />
+          </alternate-style>
+        </alternate-styles>
+      </style>
+    </item>
+    <item id="di675016789366864701" cid="EDG032" type="mind-map-edge" name="" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P978479d830694b0b9456dfbde74ced6d" creation-date="09/04/2014 00:42:24">
+      <stereotypes />
+      <tagged-values />
+      <associated-diagrams />
+      <owned-items />
+      <style class="default" />
+    </item>
+    <item id="di319252156594959406" cid="CMT007" type="comment" name="Comment" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P978479d830694b0b9456dfbde74ced6d" creation-date="09/04/2014 00:42:37">
+      <stereotypes />
+      <tagged-values />
+      <associated-diagrams />
+      <owned-items />
+      <style class="default" />
+      <comment>多少局,多少分</comment>
+    </item>
+    <item id="di292400346729625017" cid="CN007" type="comment-connector" name="" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P978479d830694b0b9456dfbde74ced6d" creation-date="09/04/2014 00:42:37">
+      <stereotypes />
+      <tagged-values />
+      <associated-diagrams />
+      <owned-items />
+      <style class="default" />
+    </item>
+    <item id="di222596265635066574" cid="NOD033" type="mind-map-node" name="横着飞" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P978479d830694b0b9456dfbde74ced6d" creation-date="09/04/2014 00:45:19">
+      <stereotypes />
+      <tagged-values />
+      <associated-diagrams />
+      <owned-items />
+      <style class="default" />
+    </item>
+    <item id="di719288051502461855" cid="EDG033" type="mind-map-edge" name="" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P978479d830694b0b9456dfbde74ced6d" creation-date="09/04/2014 00:45:19">
+      <stereotypes />
+      <tagged-values />
+      <associated-diagrams />
+      <owned-items />
+      <style class="default" />
+    </item>
+    <item id="di878135648442233530" cid="NOD034" type="mind-map-node" name="往下掉" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P978479d830694b0b9456dfbde74ced6d" creation-date="09/04/2014 00:45:31">
+      <stereotypes />
+      <tagged-values />
+      <associated-diagrams />
+      <owned-items />
+      <style class="default" />
+    </item>
+    <item id="di279910296399648937" cid="EDG034" type="mind-map-edge" name="" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P978479d830694b0b9456dfbde74ced6d" creation-date="09/04/2014 00:45:31">
+      <stereotypes />
+      <tagged-values />
+      <associated-diagrams />
+      <owned-items />
+      <style class="default" />
+    </item>
+    <item id="di468142612240985281" cid="NOD035" type="mind-map-node" name="攻击人(冲击)" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P978479d830694b0b9456dfbde74ced6d" creation-date="09/04/2014 00:45:51">
+      <stereotypes />
+      <tagged-values />
+      <associated-diagrams />
+      <owned-items />
+      <style class="default" />
+    </item>
+    <item id="di950186245839386984" cid="EDG035" type="mind-map-edge" name="" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P978479d830694b0b9456dfbde74ced6d" creation-date="09/04/2014 00:45:51">
+      <stereotypes />
+      <tagged-values />
+      <associated-diagrams />
+      <owned-items />
+      <style class="default" />
+    </item>
+    <item id="di463728302359220038" cid="NOD036" type="mind-map-node" name="能力值" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P978479d830694b0b9456dfbde74ced6d" creation-date="09/04/2014 00:46:30">
+      <stereotypes />
+      <tagged-values />
+      <associated-diagrams />
+      <owned-items />
+      <style class="default" />
+    </item>
+    <item id="di675012658490627060" cid="EDG036" type="mind-map-edge" name="" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P978479d830694b0b9456dfbde74ced6d" creation-date="09/04/2014 00:46:30">
+      <stereotypes />
+      <tagged-values />
+      <associated-diagrams />
+      <owned-items />
+      <style class="default" />
+    </item>
+    <item id="di540438952137370590" cid="CMT008" type="comment" name="Comment" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P978479d830694b0b9456dfbde74ced6d" creation-date="09/04/2014 00:46:51">
+      <stereotypes />
+      <tagged-values />
+      <associated-diagrams />
+      <owned-items />
+      <style class="default" />
+      <comment>每个角色有不同的能力值:如,跳跃能力,吸金能力,道具出现能力等</comment>
+    </item>
+    <item id="di615791509398100705" cid="CN008" type="comment-connector" name="" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P978479d830694b0b9456dfbde74ced6d" creation-date="09/04/2014 00:46:51">
+      <stereotypes />
+      <tagged-values />
+      <associated-diagrams />
+      <owned-items />
+      <style class="default" />
+    </item>
+    <item id="di126806614986911324" cid="NOD037" type="mind-map-node" name="商店模块" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P978479d830694b0b9456dfbde74ced6d" creation-date="09/04/2014 00:48:03">
+      <stereotypes />
+      <tagged-values />
+      <associated-diagrams />
+      <owned-items />
+      <style style-name="Custom Style" shadow-type="smooth" shadow-offset="1,1" shadow-visible="true" shadow-color="#3C000000" gloss-effect="true" wrap-name-text="true" wrap-other-text="true" padding="1" glow-color="#FFFFFFFF" name-color="#FF000000" name-font="Verdana;10;B" name-horizontal-alignment="center" name-vertical-alignment="center" part-header-color="#FF1E1E1E" part-header-font="Verdana;9;I" part-header-horizontal-alignment="center" part-header-vertical-alignment="center" text-color="#FF000000" text-font="Verdana;9;" text-horizontal-alignment="left" text-vertical-alignment="center" tagged-value-color="#FF1E1E1E" tagged-value-font="Verdana;9;I" tagged-value-horizontal-alignment="center" tagged-value-vertical-alignment="center" stereotype-color="#FF1E1E1E" stereotype-font="Verdana;9;I" stereotype-horizontal-alignment="center" stereotype-vertical-alignment="center">
+        <background type="vertical-linear" color="#FFD3D3D3" color2="#FFFFFFFF" />
+        <border color="#FFFFAAAA" width="1" dash-style="Solid" />
+        <alternate-styles>
+          <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="1,1" shadow-color="#3C000000" gloss-effect="true" wrap-name-text="true" wrap-other-text="true" padding="1" glow-color="#FFFFFFFF" name-color="#FF000000" name-font="Verdana;10;B" name-horizontal-alignment="center" name-vertical-alignment="center" part-header-color="#FF1E1E1E" part-header-font="Verdana;9;I" part-header-horizontal-alignment="center" part-header-vertical-alignment="center" text-color="#FF000000" text-font="Verdana;9;" text-horizontal-alignment="left" text-vertical-alignment="center" tagged-value-color="#FF1E1E1E" tagged-value-font="Verdana;9;I" tagged-value-horizontal-alignment="center" tagged-value-vertical-alignment="center" stereotype-color="#FF1E1E1E" stereotype-font="Verdana;9;I" stereotype-horizontal-alignment="center" stereotype-vertical-alignment="center">
+            <background type="vertical-linear" color="#FF1E90FF" color2="#FF87CEFA" />
+            <border color="#FF00008B" width="1" dash-style="Solid" />
+          </alternate-style>
+        </alternate-styles>
+      </style>
+    </item>
+    <item id="di468145168343434235" cid="EDG037" type="mind-map-edge" name="" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P978479d830694b0b9456dfbde74ced6d" creation-date="09/04/2014 00:48:03">
+      <stereotypes />
+      <tagged-values />
+      <associated-diagrams />
+      <owned-items />
+      <style class="default" />
+    </item>
+    <item id="di268452821120956395" cid="CMT009" type="comment" name="Comment" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P978479d830694b0b9456dfbde74ced6d" creation-date="09/04/2014 00:48:22">
+      <stereotypes />
+      <tagged-values />
+      <associated-diagrams />
+      <owned-items />
+      <style class="default" />
+      <comment>用某种货币购买能力值提升角色属性</comment>
+    </item>
+    <item id="di759063523938281846" cid="CN009" type="comment-connector" name="" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P978479d830694b0b9456dfbde74ced6d" creation-date="09/04/2014 00:48:22">
+      <stereotypes />
+      <tagged-values />
+      <associated-diagrams />
+      <owned-items />
+      <style class="default" />
+    </item>
+    <item id="di146498009180864297" cid="NOD038" type="mind-map-node" name="商城模块" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P978479d830694b0b9456dfbde74ced6d" creation-date="09/04/2014 00:48:59">
+      <stereotypes />
+      <tagged-values />
+      <associated-diagrams />
+      <owned-items />
+      <style style-name="Custom Style" shadow-type="smooth" shadow-offset="1,1" shadow-visible="true" shadow-color="#3C000000" gloss-effect="true" wrap-name-text="true" wrap-other-text="true" padding="1" glow-color="#FFFFFFFF" name-color="#FF000000" name-font="Verdana;10;B" name-horizontal-alignment="center" name-vertical-alignment="center" part-header-color="#FF1E1E1E" part-header-font="Verdana;9;I" part-header-horizontal-alignment="center" part-header-vertical-alignment="center" text-color="#FF000000" text-font="Verdana;9;" text-horizontal-alignment="left" text-vertical-alignment="center" tagged-value-color="#FF1E1E1E" tagged-value-font="Verdana;9;I" tagged-value-horizontal-alignment="center" tagged-value-vertical-alignment="center" stereotype-color="#FF1E1E1E" stereotype-font="Verdana;9;I" stereotype-horizontal-alignment="center" stereotype-vertical-alignment="center">
+        <background type="vertical-linear" color="#FFD3D3D3" color2="#FFFFFFFF" />
+        <border color="#FFFFAAAA" width="1" dash-style="Solid" />
+        <alternate-styles>
+          <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="1,1" shadow-color="#3C000000" gloss-effect="true" wrap-name-text="true" wrap-other-text="true" padding="1" glow-color="#FFFFFFFF" name-color="#FF000000" name-font="Verdana;10;B" name-horizontal-alignment="center" name-vertical-alignment="center" part-header-color="#FF1E1E1E" part-header-font="Verdana;9;I" part-header-horizontal-alignment="center" part-header-vertical-alignment="center" text-color="#FF000000" text-font="Verdana;9;" text-horizontal-alignment="left" text-vertical-alignment="center" tagged-value-color="#FF1E1E1E" tagged-value-font="Verdana;9;I" tagged-value-horizontal-alignment="center" tagged-value-vertical-alignment="center" stereotype-color="#FF1E1E1E" stereotype-font="Verdana;9;I" stereotype-horizontal-alignment="center" stereotype-vertical-alignment="center">
+            <background type="vertical-linear" color="#FF1E90FF" color2="#FF87CEFA" />
+            <border color="#FF00008B" width="1" dash-style="Solid" />
+          </alternate-style>
+        </alternate-styles>
+      </style>
+    </item>
+    <item id="di161950547823252402" cid="EDG038" type="mind-map-edge" name="" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P978479d830694b0b9456dfbde74ced6d" creation-date="09/04/2014 00:48:59">
+      <stereotypes />
+      <tagged-values />
+      <associated-diagrams />
+      <owned-items />
+      <style class="default" />
+    </item>
+    <item id="di695384968909453514" cid="CMT010" type="comment" name="Comment" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P978479d830694b0b9456dfbde74ced6d" creation-date="09/04/2014 00:49:41">
+      <stereotypes />
+      <tagged-values />
+      <associated-diagrams />
+      <owned-items />
+      <style class="default" />
+      <comment>内购买货币
+内购去广告</comment>
+    </item>
+    <item id="di327971705779113544" cid="CN010" type="comment-connector" name="" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P978479d830694b0b9456dfbde74ced6d" creation-date="09/04/2014 00:49:41">
+      <stereotypes />
+      <tagged-values />
+      <associated-diagrams />
+      <owned-items />
+      <style class="default" />
+    </item>
+    <item id="di663781168333965188" cid="NOD039" type="mind-map-node" name="广告模块" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P978479d830694b0b9456dfbde74ced6d" creation-date="09/04/2014 00:50:28">
+      <stereotypes />
+      <tagged-values />
+      <associated-diagrams />
+      <owned-items />
+      <style style-name="Custom Style" shadow-type="smooth" shadow-offset="1,1" shadow-visible="true" shadow-color="#3C000000" gloss-effect="true" wrap-name-text="true" wrap-other-text="true" padding="1" glow-color="#FFFFFFFF" name-color="#FF000000" name-font="Verdana;10;B" name-horizontal-alignment="center" name-vertical-alignment="center" part-header-color="#FF1E1E1E" part-header-font="Verdana;9;I" part-header-horizontal-alignment="center" part-header-vertical-alignment="center" text-color="#FF000000" text-font="Verdana;9;" text-horizontal-alignment="left" text-vertical-alignment="center" tagged-value-color="#FF1E1E1E" tagged-value-font="Verdana;9;I" tagged-value-horizontal-alignment="center" tagged-value-vertical-alignment="center" stereotype-color="#FF1E1E1E" stereotype-font="Verdana;9;I" stereotype-horizontal-alignment="center" stereotype-vertical-alignment="center">
+        <background type="vertical-linear" color="#FFD3D3D3" color2="#FFFFFFFF" />
+        <border color="#FFFFAAAA" width="1" dash-style="Solid" />
+        <alternate-styles>
+          <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="1,1" shadow-color="#3C000000" gloss-effect="true" wrap-name-text="true" wrap-other-text="true" padding="1" glow-color="#FFFFFFFF" name-color="#FF000000" name-font="Verdana;10;B" name-horizontal-alignment="center" name-vertical-alignment="center" part-header-color="#FF1E1E1E" part-header-font="Verdana;9;I" part-header-horizontal-alignment="center" part-header-vertical-alignment="center" text-color="#FF000000" text-font="Verdana;9;" text-horizontal-alignment="left" text-vertical-alignment="center" tagged-value-color="#FF1E1E1E" tagged-value-font="Verdana;9;I" tagged-value-horizontal-alignment="center" tagged-value-vertical-alignment="center" stereotype-color="#FF1E1E1E" stereotype-font="Verdana;9;I" stereotype-horizontal-alignment="center" stereotype-vertical-alignment="center">
+            <background type="vertical-linear" color="#FF1E90FF" color2="#FF87CEFA" />
+            <border color="#FF00008B" width="1" dash-style="Solid" />
+          </alternate-style>
+        </alternate-styles>
+      </style>
+    </item>
+    <item id="di953597130595749748" cid="EDG039" type="mind-map-edge" name="" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P978479d830694b0b9456dfbde74ced6d" creation-date="09/04/2014 00:50:28">
+      <stereotypes />
+      <tagged-values />
+      <associated-diagrams />
+      <owned-items />
+      <style class="default" />
+    </item>
+    <item id="di301780051982805287" cid="CMT011" type="comment" name="Comment" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P978479d830694b0b9456dfbde74ced6d" creation-date="09/04/2014 00:50:38">
+      <stereotypes />
+      <tagged-values />
+      <associated-diagrams />
+      <owned-items />
+      <style class="default" />
+      <comment>接入Admob等广告联盟</comment>
+    </item>
+    <item id="di192279985726667309" cid="CN011" type="comment-connector" name="" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P978479d830694b0b9456dfbde74ced6d" creation-date="09/04/2014 00:50:38">
+      <stereotypes />
+      <tagged-values />
+      <associated-diagrams />
+      <owned-items />
+      <style class="default" />
+    </item>
+    <item id="di760734205518717561" cid="NOD040" type="mind-map-node" name="随机躲避跳板" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P978479d830694b0b9456dfbde74ced6d" creation-date="09/04/2014 00:52:45">
+      <stereotypes />
+      <tagged-values />
+      <associated-diagrams />
+      <owned-items />
+      <style class="default" />
+    </item>
+    <item id="di733333161855795588" cid="EDG040" type="mind-map-edge" name="" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P978479d830694b0b9456dfbde74ced6d" creation-date="09/04/2014 00:52:45">
+      <stereotypes />
+      <tagged-values />
+      <associated-diagrams />
+      <owned-items />
+      <style class="default" />
+    </item>
+    <item id="di937598212328135342" cid="CMT012" type="comment" name="Comment" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P978479d830694b0b9456dfbde74ced6d" creation-date="09/04/2014 00:53:06">
+      <stereotypes />
+      <tagged-values />
+      <associated-diagrams />
+      <owned-items />
+      <style class="default" />
+      <comment>随机情况快速移动</comment>
+    </item>
+    <item id="di332668282285766252" cid="CN012" type="comment-connector" name="" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P978479d830694b0b9456dfbde74ced6d" creation-date="09/04/2014 00:53:06">
+      <stereotypes />
+      <tagged-values />
+      <associated-diagrams />
+      <owned-items />
+      <style class="default" />
+    </item>
+    <item id="di734932119981496976" cid="NOD041" type="mind-map-node" name="评分Rate" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P978479d830694b0b9456dfbde74ced6d" creation-date="09/04/2014 00:57:07">
+      <stereotypes />
+      <tagged-values />
+      <associated-diagrams />
+      <owned-items />
+      <style style-name="Custom Style" shadow-type="smooth" shadow-offset="1,1" shadow-visible="true" shadow-color="#3C000000" gloss-effect="true" wrap-name-text="true" wrap-other-text="true" padding="1" glow-color="#FFFFFFFF" name-color="#FF000000" name-font="Verdana;10;B" name-horizontal-alignment="center" name-vertical-alignment="center" part-header-color="#FF1E1E1E" part-header-font="Verdana;9;I" part-header-horizontal-alignment="center" part-header-vertical-alignment="center" text-color="#FF000000" text-font="Verdana;9;" text-horizontal-alignment="left" text-vertical-alignment="center" tagged-value-color="#FF1E1E1E" tagged-value-font="Verdana;9;I" tagged-value-horizontal-alignment="center" tagged-value-vertical-alignment="center" stereotype-color="#FF1E1E1E" stereotype-font="Verdana;9;I" stereotype-horizontal-alignment="center" stereotype-vertical-alignment="center">
+        <background type="vertical-linear" color="#FFD3D3D3" color2="#FFFFFFFF" />
+        <border color="#FFFFAAAA" width="1" dash-style="Solid" />
+        <alternate-styles>
+          <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="1,1" shadow-color="#3C000000" gloss-effect="true" wrap-name-text="true" wrap-other-text="true" padding="1" glow-color="#FFFFFFFF" name-color="#FF000000" name-font="Verdana;10;B" name-horizontal-alignment="center" name-vertical-alignment="center" part-header-color="#FF1E1E1E" part-header-font="Verdana;9;I" part-header-horizontal-alignment="center" part-header-vertical-alignment="center" text-color="#FF000000" text-font="Verdana;9;" text-horizontal-alignment="left" text-vertical-alignment="center" tagged-value-color="#FF1E1E1E" tagged-value-font="Verdana;9;I" tagged-value-horizontal-alignment="center" tagged-value-vertical-alignment="center" stereotype-color="#FF1E1E1E" stereotype-font="Verdana;9;I" stereotype-horizontal-alignment="center" stereotype-vertical-alignment="center">
+            <background type="vertical-linear" color="#FF1E90FF" color2="#FF87CEFA" />
+            <border color="#FF00008B" width="1" dash-style="Solid" />
+          </alternate-style>
+        </alternate-styles>
+      </style>
+    </item>
+    <item id="di474824820203811314" cid="EDG041" type="mind-map-edge" name="" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P978479d830694b0b9456dfbde74ced6d" creation-date="09/04/2014 00:57:07">
+      <stereotypes />
+      <tagged-values />
+      <associated-diagrams />
+      <owned-items />
+      <style class="default" />
+    </item>
+    <item id="di656778934829633363" cid="NOD042" type="mind-map-node" name="结束分享" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P978479d830694b0b9456dfbde74ced6d" creation-date="09/04/2014 00:57:25">
+      <stereotypes />
+      <tagged-values />
+      <associated-diagrams />
+      <owned-items />
+      <style style-name="Custom Style" shadow-type="smooth" shadow-offset="1,1" shadow-visible="true" shadow-color="#3C000000" gloss-effect="true" wrap-name-text="true" wrap-other-text="true" padding="1" glow-color="#FFFFFFFF" name-color="#FF000000" name-font="Verdana;10;B" name-horizontal-alignment="center" name-vertical-alignment="center" part-header-color="#FF1E1E1E" part-header-font="Verdana;9;I" part-header-horizontal-alignment="center" part-header-vertical-alignment="center" text-color="#FF000000" text-font="Verdana;9;" text-horizontal-alignment="left" text-vertical-alignment="center" tagged-value-color="#FF1E1E1E" tagged-value-font="Verdana;9;I" tagged-value-horizontal-alignment="center" tagged-value-vertical-alignment="center" stereotype-color="#FF1E1E1E" stereotype-font="Verdana;9;I" stereotype-horizontal-alignment="center" stereotype-vertical-alignment="center">
+        <background type="vertical-linear" color="#FFD3D3D3" color2="#FFFFFFFF" />
+        <border color="#FFFFAAAA" width="1" dash-style="Solid" />
+        <alternate-styles>
+          <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="1,1" shadow-color="#3C000000" gloss-effect="true" wrap-name-text="true" wrap-other-text="true" padding="1" glow-color="#FFFFFFFF" name-color="#FF000000" name-font="Verdana;10;B" name-horizontal-alignment="center" name-vertical-alignment="center" part-header-color="#FF1E1E1E" part-header-font="Verdana;9;I" part-header-horizontal-alignment="center" part-header-vertical-alignment="center" text-color="#FF000000" text-font="Verdana;9;" text-horizontal-alignment="left" text-vertical-alignment="center" tagged-value-color="#FF1E1E1E" tagged-value-font="Verdana;9;I" tagged-value-horizontal-alignment="center" tagged-value-vertical-alignment="center" stereotype-color="#FF1E1E1E" stereotype-font="Verdana;9;I" stereotype-horizontal-alignment="center" stereotype-vertical-alignment="center">
+            <background type="vertical-linear" color="#FF1E90FF" color2="#FF87CEFA" />
+            <border color="#FF00008B" width="1" dash-style="Solid" />
+          </alternate-style>
+        </alternate-styles>
+      </style>
+    </item>
+    <item id="di183044653312802837" cid="EDG042" type="mind-map-edge" name="" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P978479d830694b0b9456dfbde74ced6d" creation-date="09/04/2014 00:57:25">
+      <stereotypes />
+      <tagged-values />
+      <associated-diagrams />
+      <owned-items />
+      <style class="default" />
+    </item>
+  </items>
+  <models>
+    <model id="p587333730940175308" name="Papa" type="model" namespace="" order-index="1">
+      <meta>
+        <authors>
+          <author> </author>
+        </authors>
+        <description />
+        <creation-date>09/03/2014 23:53:40</creation-date>
+        <change-date>01/01/0001 00:00:00</change-date>
+        <revision-count>0</revision-count>
+        <version />
+      </meta>
+      <tagged-values />
+      <abstract-items />
+      <sub-models />
+      <diagram type="mind-map" id="p994378179195795187" name="PapaJump思维导图" order-index="1" show-id="false" show-name="true" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" show-template-parameters="true" show-attributes="true" show-attribute-visibility="true" show-operations="true" show-operation-parameters="true" show-operation-visibility="true" show-nullability="true" show-sequence-number="false" show-extension-points="true" show-relationship-texts="true" auto-routed-paths="false">
+        <style>
+          <background-color index="1" color="#FFFFFFFF" />
+          <background-color index="2" color="#FFFFFFFF" />
+          <background-type type="solid" />
+        </style>
+        <meta>
+          <authors>
+            <author> </author>
+          </authors>
+          <description />
+          <creation-date>09/03/2014 23:53:40</creation-date>
+          <change-date>09/04/2014 00:57:25</change-date>
+          <revision-count>0</revision-count>
+          <version />
+        </meta>
+        <tagged-values />
+        <abstract-items />
+        <layer name="Default" visible="true" enabled="true" locked="false">
+          <item id="di183284245655031420" iid="72c593c70562405d9280c69403dba57f" creation-date="09/03/2014 23:53:40" order-index="0" type="entity">
+            <layout ax="508" ay="360" awidth="150" aheight="80" x="508" y="360" width="150" height="80" angle="0" />
+          </item>
+          <item id="di914535253487889323" iid="7c1826eb028a4b849f8ac1ac5ac1bfbd" creation-date="09/03/2014 23:54:47" order-index="1" type="entity">
+            <layout ax="271" ay="231" awidth="150" aheight="31" x="271" y="231" width="150" height="31" angle="0" />
+          </item>
+          <item id="di688792310385876278" iid="80b39018dc814adbbf8c49e8a2726691" creation-date="09/03/2014 23:54:47" order-index="2" type="relation">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" name-position="10,-10" auto-path="" x1="520" y1="378" x2="371" y2="262" start-border-pos="0.0224025472005208" end-border-pos="0.583961029052734">
+              <points>
+                <point x="520" y="378" />
+                <point x="371" y="262" />
+              </points>
+            </layout>
+          </item>
+          <item id="di114153870518719739" iid="644d957f995647d4b82467cb12325237" creation-date="09/03/2014 23:55:04" order-index="3" type="entity">
+            <layout ax="271" ay="299" awidth="150" aheight="30" x="271" y="299" width="150" height="30" angle="0" />
+          </item>
+          <item id="di457236614495826195" iid="8377973eb7fb49c2b18575b46c4221e0" creation-date="09/03/2014 23:55:04" order-index="4" type="relation">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" name-position="10,-10" auto-path="" x1="512" y1="386" x2="387" y2="329" start-border-pos="0.960047435760498" end-border-pos="0.556104634602865">
+              <points>
+                <point x="512" y="386" />
+                <point x="387" y="329" />
+              </points>
+            </layout>
+          </item>
+          <item id="di694623853892027950" iid="612e7b2232c9485fbcc7c415048e6833" creation-date="09/03/2014 23:55:10" order-index="5" type="entity">
+            <layout ax="537" ay="653.0308" awidth="100" aheight="24" x="537" y="653.0308" width="100" height="24" angle="0" />
+          </item>
+          <item id="di656300713408030581" iid="0cc7ea25ce4343d0a7edb832ce85b394" creation-date="09/03/2014 23:55:10" order-index="6" type="relation">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" name-position="10,-10" auto-path="" x1="585" y1="440" x2="587" y2="653" start-border-pos="0.623993733723958" end-border-pos="0.124547119140625">
+              <points>
+                <point x="585" y="440" />
+                <point x="587" y="653" />
+              </points>
+            </layout>
+          </item>
+          <item id="di666124613165313828" iid="6b6ddc6f018548fe8e0ef08a0229fb5f" creation-date="09/03/2014 23:55:22" order-index="7" type="entity">
+            <layout ax="382" ay="493" awidth="150" aheight="30" x="382" y="493" width="150" height="30" angle="0" />
+          </item>
+          <item id="di653479793357713119" iid="df7e7bfb48a14ec3afd58992743d0e4a" creation-date="09/03/2014 23:55:22" order-index="8" type="relation">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" name-position="10,-10" auto-path="" x1="526" y1="426" x2="474" y2="493" start-border-pos="0.702777811686198" end-border-pos="0.154166666666667">
+              <points>
+                <point x="526" y="426" />
+                <point x="474" y="493" />
+              </points>
+            </layout>
+          </item>
+          <item id="di573556058394442768" iid="8622af02c89f488c867ec57ea83596a0" creation-date="09/03/2014 23:55:36" order-index="9" type="entity">
+            <layout ax="271" ay="389" awidth="150" aheight="30" x="271" y="389" width="150" height="30" angle="0" />
+          </item>
+          <item id="di522488780588157231" iid="9e771b83781b40e899a6589792359691" creation-date="09/03/2014 23:55:36" order-index="10" type="relation">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" name-position="10,-10" auto-path="" x1="508" y1="401" x2="421" y2="403" start-border-pos="0.87104434967041" end-border-pos="0.364451599121094">
+              <points>
+                <point x="508" y="401" />
+                <point x="421" y="403" />
+              </points>
+            </layout>
+          </item>
+          <item id="di165831580316084767" iid="d108630ee8f84115a760d660b008f321" creation-date="09/03/2014 23:56:05" order-index="14" type="relation">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" name-position="10,-10" auto-path="" x1="429" y1="523" x2="322" y2="581" start-border-pos="0.671176452636719" end-border-pos="0.213789767906314">
+              <points>
+                <point x="429" y="523" />
+                <point x="322" y="581" />
+              </points>
+            </layout>
+          </item>
+          <item id="di361056782141559670" iid="b468039f1cbb488f91d337e4894bb70e" creation-date="09/03/2014 23:56:16" order-index="18" type="relation">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" name-position="10,-10" auto-path="" x1="461" y1="523" x2="475" y2="581" start-border-pos="0.618823547363281" end-border-pos="0.112647120157878">
+              <points>
+                <point x="461" y="523" />
+                <point x="475" y="581" />
+              </points>
+            </layout>
+          </item>
+          <item id="di747448289695808368" iid="da7bcd1c3a7443fc810fa87f5239e0e7" creation-date="09/03/2014 23:55:57" order-index="11" type="entity">
+            <layout ax="365" ay="581" awidth="56" aheight="24" x="365" y="581" width="56" height="24" angle="0" />
+          </item>
+          <item id="di197651627552902804" iid="16e6c932f9c849719857dbf4e6e3a94a" creation-date="09/03/2014 23:55:57" order-index="12" type="relation">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" name-position="10,-10" auto-path="" x1="446" y1="523" x2="402" y2="581" start-border-pos="0.643823547363281" end-border-pos="0.165336200169155">
+              <points>
+                <point x="446" y="523" />
+                <point x="402" y="581" />
+              </points>
+            </layout>
+          </item>
+          <item id="di798743484465249666" iid="b4989e87c93848a28d8a5a285ecf0497" creation-date="09/03/2014 23:56:05" order-index="13" type="entity">
+            <layout ax="270" ay="581" awidth="61" aheight="24" x="270" y="581" width="61" height="24" angle="0" />
+          </item>
+          <item id="di801271751252048390" iid="e1aa419eb0c44211b2595a77824c553d" creation-date="09/03/2014 23:56:10" order-index="15" type="entity">
+            <layout ax="179" ay="581" awidth="62" aheight="24" x="179" y="581" width="62" height="24" angle="0" />
+          </item>
+          <item id="di308353331533731811" iid="5f1cdf282ea14e8fb6c2476f5dc82852" creation-date="09/03/2014 23:56:10" order-index="16" type="relation">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" name-position="10,-10" auto-path="" x1="413" y1="523" x2="241" y2="582" start-border-pos="0.697647043863932" end-border-pos="0.263874689737956">
+              <points>
+                <point x="413" y="523" />
+                <point x="241" y="582" />
+              </points>
+            </layout>
+          </item>
+          <item id="di114684085800599254" iid="65c4bdf3dda04c72b1a87e546c4fcd9b" creation-date="09/03/2014 23:56:16" order-index="17" type="entity">
+            <layout ax="448" ay="581" awidth="60" aheight="24" x="448" y="581" width="60" height="24" angle="0" />
+          </item>
+          <item id="di409161721273298054" iid="3fee7e647e8c4a07a45a7fb67670ab40" creation-date="09/04/2014 00:02:26" order-index="37" type="entity">
+            <layout ax="178" ay="481" awidth="140" aheight="38" x="178" y="481" width="140" height="38" angle="0" />
+          </item>
+          <item id="di276855534289081154" iid="81a811e958c54c769cc713342163b363" creation-date="09/04/2014 00:02:26" order-index="38" type="comment-connector">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" name-position="10,-10" auto-path="" x1="318" y1="503" x2="382" y2="505" start-border-pos="0.392627716064453" end-border-pos="0.898923492431641">
+              <points>
+                <point x="318" y="503" />
+                <point x="382" y="505" />
+              </points>
+            </layout>
+            <relation from="di409161721273298054" from-iid="3fee7e647e8c4a07a45a7fb67670ab40" to="di666124613165313828" to-iid="6b6ddc6f018548fe8e0ef08a0229fb5f" />
+          </item>
+          <item id="di758052692319884249" iid="9dcafd2b3e3e4b9e81cc93295b025b5c" creation-date="09/04/2014 00:03:39" order-index="39" type="entity">
+            <layout ax="508" ay="232" awidth="150" aheight="30" x="508" y="232" width="150" height="30" angle="0" />
+          </item>
+          <item id="di560033297679705063" iid="06b8f41869a14acdb36c4caabe8762d5" creation-date="09/04/2014 00:03:39" order-index="40" type="relation">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" name-position="10,-10" auto-path="" x1="583" y1="360" x2="583" y2="262" start-border-pos="0.125" end-border-pos="0.625">
+              <points>
+                <point x="583" y="360" />
+                <point x="583" y="262" />
+              </points>
+            </layout>
+          </item>
+          <item id="di967254709365629858" iid="1e5e29e4ae254bb4a776a4fbd1af6176" creation-date="09/03/2014 23:56:54" order-index="22" type="relation">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" name-position="10,-10" auto-path="" x1="604" y1="677" x2="637" y2="701" start-border-pos="0.583235321044922" end-border-pos="0.0710072918617352">
+              <points>
+                <point x="604" y="677" />
+                <point x="637" y="701" />
+              </points>
+            </layout>
+          </item>
+          <item id="di613856357785906642" iid="dee6db2a63a54685a9c8131d15362656" creation-date="09/03/2014 23:57:09" order-index="24" type="relation">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" name-position="10,-10" auto-path="" x1="579" y1="677" x2="562" y2="701" start-border-pos="0.645588226318359" end-border-pos="0.15130661035484">
+              <points>
+                <point x="579" y="677" />
+                <point x="562" y="701" />
+              </points>
+            </layout>
+          </item>
+          <item id="di378852381649705827" iid="913f23ada7df467098de35122d8f3e60" creation-date="09/04/2014 00:40:46" order-index="72" type="relation">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" name-position="10,-10" auto-path="" x1="655" y1="389" x2="819" y2="330" start-border-pos="0.305585765838623" end-border-pos="0.70941172281901">
+              <points>
+                <point x="655" y="389" />
+                <point x="819" y="330" />
+              </points>
+            </layout>
+          </item>
+          <item id="di983642322936862518" iid="41373804a54d43edb04b20da3fa55e2e" creation-date="09/03/2014 23:57:16" order-index="26" type="relation">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" name-position="10,-10" auto-path="" x1="628" y1="677" x2="715" y2="702" start-border-pos="0.521470642089844" end-border-pos="0.990767277325718">
+              <points>
+                <point x="628" y="677" />
+                <point x="715" y="702" />
+              </points>
+            </layout>
+          </item>
+          <item id="di694500730209972332" iid="aff5cbc824b1445e84044c2c30d8357e" creation-date="09/04/2014 00:39:00" order-index="65" type="entity">
+            <layout ax="795" ay="245" awidth="150" aheight="31" x="795" y="245" width="150" height="31" angle="0" />
+          </item>
+          <item id="di383239291597047584" iid="154fcfa19b8c443e951740eb2633fc5a" creation-date="09/04/2014 00:39:46" order-index="67" type="entity">
+            <layout ax="993" ay="246" awidth="91" aheight="30" x="993" y="246" width="91" height="30" angle="0" />
+          </item>
+          <item id="di940949259766332725" iid="0aef486333404a7e8e35df74d7eac5d4" creation-date="09/04/2014 00:39:46" order-index="68" type="comment-connector">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" name-position="10,-10" auto-path="" x1="993" y1="261" x2="945" y2="260" start-border-pos="0.877232106526693" end-border-pos="0.374568077825731">
+              <points>
+                <point x="993" y="261" />
+                <point x="945" y="260" />
+              </points>
+            </layout>
+            <relation from="di383239291597047584" from-iid="154fcfa19b8c443e951740eb2633fc5a" to="di694500730209972332" to-iid="aff5cbc824b1445e84044c2c30d8357e" />
+          </item>
+          <item id="di101231324812621850" iid="d3fe4586dc9347d2be1e743bb174f82d" creation-date="09/04/2014 00:40:46" order-index="71" type="entity">
+            <layout ax="795" ay="300" awidth="150" aheight="30" x="795" y="300" width="150" height="30" angle="0" />
+          </item>
+          <item id="di522551420196315379" iid="3e86dec40a344d1687182f426b6e2e6b" creation-date="09/04/2014 00:42:24" order-index="73" type="entity">
+            <layout ax="795" ay="348" awidth="150" aheight="30" x="795" y="348" width="150" height="30" angle="0" />
+          </item>
+          <item id="di675016789366864701" iid="a9a46297dd5f4936ba990cd7aa8559e6" creation-date="09/04/2014 00:42:24" order-index="74" type="relation">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" name-position="10,-10" auto-path="" x1="657" y1="395" x2="795" y2="373" start-border-pos="0.344784450531006" end-border-pos="0.794425201416016">
+              <points>
+                <point x="657" y="395" />
+                <point x="795" y="373" />
+              </points>
+            </layout>
+          </item>
+          <item id="di319252156594959406" iid="4f1c7c8cd4de483593773ecc7bac76ce" creation-date="09/04/2014 00:42:37" order-index="75" type="entity">
+            <layout ax="993" ay="348" awidth="112" aheight="30" x="993" y="348" width="112" height="30" angle="0" />
+          </item>
+          <item id="di292400346729625017" iid="f394e04fca454fb78d39ec50fd4001b8" creation-date="09/04/2014 00:42:37" order-index="76" type="comment-connector">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" name-position="10,-10" auto-path="" x1="993" y1="363" x2="945" y2="363" start-border-pos="0.875" end-border-pos="0.375">
+              <points>
+                <point x="993" y="363" />
+                <point x="945" y="363" />
+              </points>
+            </layout>
+            <relation from="di319252156594959406" from-iid="4f1c7c8cd4de483593773ecc7bac76ce" to="di522551420196315379" to-iid="3e86dec40a344d1687182f426b6e2e6b" />
+          </item>
+          <item id="di222596265635066574" iid="04f49695acfd4572b76e176ae1ba9a06" creation-date="09/04/2014 00:45:19" order-index="77" type="entity">
+            <layout ax="178" ay="300" awidth="63" aheight="30" x="178" y="300" width="63" height="30" angle="0" />
+          </item>
+          <item id="di719288051502461855" iid="f1d62435b43a44e9a21fda0e59c2caaf" creation-date="09/04/2014 00:45:19" order-index="78" type="relation">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" name-position="10,-10" auto-path="" x1="271" y1="315" x2="241" y2="315" start-border-pos="0.870404307047526" end-border-pos="0.37310053507487">
+              <points>
+                <point x="271" y="315" />
+                <point x="241" y="315" />
+              </points>
+            </layout>
+          </item>
+          <item id="di878135648442233530" iid="17c9f787ea8649aea3fc468646904738" creation-date="09/04/2014 00:45:31" order-index="79" type="entity">
+            <layout ax="178" ay="358.9692" awidth="63" aheight="19.03076" x="178" y="358.9692" width="63" height="19.03076" angle="0" />
+          </item>
+          <item id="di279910296399648937" iid="d623e7f32f9446f6870134a5fc7c55e1" creation-date="09/04/2014 00:45:31" order-index="80" type="relation">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" name-position="10,-10" auto-path="" x1="308" y1="329" x2="233" y2="359" start-border-pos="0.687962951660156" end-border-pos="0.2169312371148">
+              <points>
+                <point x="308" y="329" />
+                <point x="233" y="359" />
+              </points>
+            </layout>
+          </item>
+          <item id="di468142612240985281" iid="bd3b288a07404431af3aceb80daac2fd" creation-date="09/04/2014 00:45:51" order-index="81" type="entity">
+            <layout ax="29.5" ay="391" awidth="129" aheight="24" x="29.5" y="391" width="129" height="24" angle="0" />
+          </item>
+          <item id="di950186245839386984" iid="103e64e33d3b4f84b175c87884618d3b" creation-date="09/04/2014 00:45:51" order-index="82" type="relation">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" name-position="10,-10" auto-path="" x1="178" y1="378" x2="134" y2="391" start-border-pos="0.754529746632457" end-border-pos="0.202076401821403">
+              <points>
+                <point x="178" y="378" />
+                <point x="134" y="391" />
+              </points>
+            </layout>
+          </item>
+          <item id="di463728302359220038" iid="9f5080a9e3274d65a5f86889c1c79087" creation-date="09/04/2014 00:46:30" order-index="83" type="entity">
+            <layout ax="192" ay="158" awidth="150" aheight="30" x="192" y="158" width="150" height="30" angle="0" />
+          </item>
+          <item id="di675012658490627060" iid="795b12b70be84338a47f1fbb285c2f77" creation-date="09/04/2014 00:46:30" order-index="84" type="relation">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" name-position="10,-10" auto-path="" x1="330" y1="231" x2="283" y2="188" start-border-pos="0.0979452006022135" end-border-pos="0.597945200602214">
+              <points>
+                <point x="330" y="231" />
+                <point x="283" y="188" />
+              </points>
+            </layout>
+          </item>
+          <item id="di540438952137370590" iid="68807dab3bb744d184371a2092dd9fba" creation-date="09/04/2014 00:46:51" order-index="85" type="entity">
+            <layout ax="18.5" ay="146" awidth="140" aheight="61" x="18.5" y="146" width="140" height="61" angle="0" />
+          </item>
+          <item id="di615791509398100705" iid="5b526c067d094140aebf027da3206a22" creation-date="09/04/2014 00:46:51" order-index="86" type="comment-connector">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" name-position="10,-10" auto-path="" x1="158" y1="175" x2="192" y2="174" start-border-pos="0.368142675180904" end-border-pos="0.864525095621745">
+              <points>
+                <point x="158" y="175" />
+                <point x="192" y="174" />
+              </points>
+            </layout>
+            <relation from="di540438952137370590" from-iid="68807dab3bb744d184371a2092dd9fba" to="di463728302359220038" to-iid="9f5080a9e3274d65a5f86889c1c79087" />
+          </item>
+          <item id="di126806614986911324" iid="567fefebd179442ebd6fec2f56a1017f" creation-date="09/04/2014 00:48:03" order-index="87" type="entity">
+            <layout ax="795" ay="388" awidth="150" aheight="30" x="795" y="388" width="150" height="30" angle="0" />
+          </item>
+          <item id="di468145168343434235" iid="a537bbd7422a4c89a60c96ce1bf330b9" creation-date="09/04/2014 00:48:03" order-index="88" type="relation">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" name-position="10,-10" auto-path="" x1="658" y1="401" x2="795" y2="402" start-border-pos="0.377449893951416" end-border-pos="0.881533050537109">
+              <points>
+                <point x="658" y="401" />
+                <point x="795" y="402" />
+              </points>
+            </layout>
+          </item>
+          <item id="di268452821120956395" iid="56e81e4c776d4698a23d2c29c5c54c8a" creation-date="09/04/2014 00:48:22" order-index="89" type="entity">
+            <layout ax="993" ay="387" awidth="140" aheight="31" x="993" y="387" width="140" height="31" angle="0" />
+          </item>
+          <item id="di759063523938281846" iid="6e914529ef664b7c8408b4bfea3ae7dd" creation-date="09/04/2014 00:48:22" order-index="90" type="comment-connector">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" name-position="10,-10" auto-path="" x1="993" y1="402" x2="945" y2="403" start-border-pos="0.876107246645035" end-border-pos="0.371761576334635">
+              <points>
+                <point x="993" y="402" />
+                <point x="945" y="403" />
+              </points>
+            </layout>
+            <relation from="di268452821120956395" from-iid="56e81e4c776d4698a23d2c29c5c54c8a" to="di126806614986911324" to-iid="567fefebd179442ebd6fec2f56a1017f" />
+          </item>
+          <item id="di146498009180864297" iid="9fa44cfd447a42fb9bdf45fc33d125fa" creation-date="09/04/2014 00:48:59" order-index="91" type="entity">
+            <layout ax="795" ay="429" awidth="150" aheight="30" x="795" y="429" width="150" height="30" angle="0" />
+          </item>
+          <item id="di161950547823252402" iid="55c007b830b446f4b1b60a7f155586a5" creation-date="09/04/2014 00:48:59" order-index="92" type="relation">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" name-position="10,-10" auto-path="" x1="657" y1="406" x2="795" y2="433" start-border-pos="0.410932064056396" end-border-pos="0.970818837483724">
+              <points>
+                <point x="657" y="406" />
+                <point x="795" y="433" />
+              </points>
+            </layout>
+          </item>
+          <item id="di695384968909453514" iid="d1d521803d7e43acada014063b22cc5b" creation-date="09/04/2014 00:49:41" order-index="93" type="entity">
+            <layout ax="993" ay="429.4615" awidth="140" aheight="29.53845" x="993" y="429.4615" width="140" height="29.53845" angle="0" />
+          </item>
+          <item id="di327971705779113544" iid="1bf155b8322a431f97f6bfe573496dfb" creation-date="09/04/2014 00:49:41" order-index="94" type="comment-connector">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" name-position="10,-10" auto-path="" x1="993" y1="444" x2="945" y2="444" start-border-pos="0.876952656981123" end-border-pos="0.375">
+              <points>
+                <point x="993" y="444" />
+                <point x="945" y="444" />
+              </points>
+            </layout>
+            <relation from="di695384968909453514" from-iid="d1d521803d7e43acada014063b22cc5b" to="di146498009180864297" to-iid="9fa44cfd447a42fb9bdf45fc33d125fa" />
+          </item>
+          <item id="di663781168333965188" iid="7c229b9d45ba41c5bab5e2f182044a02" creation-date="09/04/2014 00:50:28" order-index="95" type="entity">
+            <layout ax="795" ay="476" awidth="150" aheight="30" x="795" y="476" width="150" height="30" angle="0" />
+          </item>
+          <item id="di953597130595749748" iid="9137132b75094b9f9d78daf03df3f815" creation-date="09/04/2014 00:50:28" order-index="96" type="relation">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" name-position="10,-10" auto-path="" x1="654" y1="412" x2="823" y2="476" start-border-pos="0.449314022064209" end-border-pos="0.0461538696289062">
+              <points>
+                <point x="654" y="412" />
+                <point x="823" y="476" />
+              </points>
+            </layout>
+          </item>
+          <item id="di301780051982805287" iid="65b64338c6004ca69ead9180dfd0f850" creation-date="09/04/2014 00:50:38" order-index="97" type="entity">
+            <layout ax="993" ay="476" awidth="158" aheight="30" x="993" y="476" width="158" height="30" angle="0" />
+          </item>
+          <item id="di192279985726667309" iid="58386bd40f6f490ea760e20c8766acf5" creation-date="09/04/2014 00:50:38" order-index="98" type="comment-connector">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" name-position="10,-10" auto-path="" x1="993" y1="491" x2="945" y2="491" start-border-pos="0.875" end-border-pos="0.375">
+              <points>
+                <point x="993" y="491" />
+                <point x="945" y="491" />
+              </points>
+            </layout>
+            <relation from="di301780051982805287" from-iid="65b64338c6004ca69ead9180dfd0f850" to="di663781168333965188" to-iid="7c229b9d45ba41c5bab5e2f182044a02" />
+          </item>
+          <item id="di369436089794690704" iid="61d51cacdeb5486fa482273e202ceffd" creation-date="09/03/2014 23:58:52" order-index="30" type="comment-connector">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" name-position="10,-10" auto-path="" x1="666" y1="844" x2="659" y2="731" start-border-pos="0.122233751085069" end-border-pos="0.62203450548088">
+              <points>
+                <point x="666" y="844" />
+                <point x="659" y="731" />
+              </points>
+            </layout>
+            <relation from="di321903546163813748" from-iid="621b3735f9ae4860b9d07c3034bb412c" to="di880842169128298434" to-iid="f75f85b9e28b45c1a542eb03df59df63" />
+          </item>
+          <item id="di339589199599931972" iid="cb41e37c7f96441787ec760c122eea35" creation-date="09/04/2014 00:00:00" order-index="32" type="comment-connector">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" name-position="10,-10" auto-path="" x1="771" y1="767" x2="765" y2="731" start-border-pos="0.120808467158565" end-border-pos="0.62007300809589">
+              <points>
+                <point x="771" y="767" />
+                <point x="765" y="731" />
+              </points>
+            </layout>
+            <relation from="di181562562444202419" from-iid="874bcbb9ee8049a1b2f9beaf2e943cd1" to="di591361410393429220" to-iid="669e4e196158440e8991a74b6b5fbe61" />
+          </item>
+          <item id="di181798619651567922" iid="842a2945440a466296f7113190f25c58" creation-date="09/04/2014 00:22:48" order-index="42" type="relation">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" name-position="10,-10" auto-path="" x1="554" y1="232" x2="447" y2="177" start-border-pos="0.0764705403645833" end-border-pos="0.503676478068034">
+              <points>
+                <point x="554" y="232" />
+                <point x="447" y="177" />
+              </points>
+            </layout>
+          </item>
+          <item id="di734932119981496976" iid="7086fdb2909a43f0a72525db86286776" creation-date="09/04/2014 00:57:07" order-index="103" type="entity">
+            <layout ax="795" ay="523" awidth="150" aheight="30" x="795" y="523" width="150" height="30" angle="0" />
+          </item>
+          <item id="di686206270757316409" iid="76a38bac22cf442798d22fe9b46c8001" creation-date="09/03/2014 23:57:24" order-index="28" type="relation">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" name-position="10,-10" auto-path="" x1="554" y1="677" x2="488" y2="701" start-border-pos="0.707352905273438" end-border-pos="0.233453900337526">
+              <points>
+                <point x="554" y="677" />
+                <point x="488" y="701" />
+              </points>
+            </layout>
+          </item>
+          <item id="di721786722560611937" iid="4543ed3937f149159f55a787906c6e1e" creation-date="09/04/2014 00:39:00" order-index="66" type="relation">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" name-position="10,-10" auto-path="" x1="922" y1="177" x2="879" y2="245" start-border-pos="0.671683654785156" end-border-pos="0.140561218261719">
+              <points>
+                <point x="922" y="177" />
+                <point x="879" y="245" />
+              </points>
+            </layout>
+          </item>
+          <item id="di474824820203811314" iid="9a5a035e5b8b43a28c403af5892f3383" creation-date="09/04/2014 00:57:07" order-index="104" type="relation">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" name-position="10,-10" auto-path="" x1="651" y1="417" x2="839" y2="523" start-border-pos="0.487695980072021" end-border-pos="0.0730072021484375">
+              <points>
+                <point x="651" y="417" />
+                <point x="839" y="523" />
+              </points>
+            </layout>
+          </item>
+          <item id="di384975939457665207" iid="bbb90c62181f4912b8bdf33a9bbde2f0" creation-date="09/04/2014 00:00:25" order-index="34" type="comment-connector">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" name-position="10,-10" auto-path="" x1="560" y1="773" x2="554" y2="731" start-border-pos="0.121785142686632" end-border-pos="0.620330578459576">
+              <points>
+                <point x="560" y="773" />
+                <point x="554" y="731" />
+              </points>
+            </layout>
+            <relation from="di712287367213177784" from-iid="4f0dc258709a49eabde6d3996846a256" to="di960968104935754623" to-iid="c72072d421354472b8575fe1f10dcf19" />
+          </item>
+          <item id="di299764153663391884" iid="711f437ddab64e479ee478b3c71bff1e" creation-date="09/04/2014 00:28:07" order-index="44" type="relation">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" name-position="10,-10" auto-path="" x1="568" y1="232" x2="513" y2="177" start-border-pos="0.1" end-border-pos="0.569852941176471">
+              <points>
+                <point x="568" y="232" />
+                <point x="513" y="177" />
+              </points>
+            </layout>
+          </item>
+          <item id="di656778934829633363" iid="43a841d299444c7b94e3adbd543c5c23" creation-date="09/04/2014 00:57:25" order-index="105" type="entity">
+            <layout ax="795" ay="575" awidth="150" aheight="30" x="795" y="575" width="150" height="30" angle="0" />
+          </item>
+          <item id="di715264063198344081" iid="2da8cc683011449f9c4165d7be895785" creation-date="09/04/2014 00:00:49" order-index="36" type="comment-connector">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" name-position="10,-10" auto-path="" x1="455" y1="837" x2="448" y2="731" start-border-pos="0.121812156394676" end-border-pos="0.621985372176393">
+              <points>
+                <point x="455" y="837" />
+                <point x="448" y="731" />
+              </points>
+            </layout>
+            <relation from="di564917100264376433" from-iid="a766ce339112406da8ce6c5ba545474d" to="di739838186686085567" to-iid="f71c1712a79a49bd985cc2a886009583" />
+          </item>
+          <item id="di377408869499974941" iid="802ea7bdbcbc4af4ab525bad00cfe1b7" creation-date="09/04/2014 00:28:22" order-index="46" type="relation">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" name-position="10,-10" auto-path="" x1="582" y1="232" x2="577" y2="177" start-border-pos="0.122941182454427" end-border-pos="0.619852956136068">
+              <points>
+                <point x="582" y="232" />
+                <point x="577" y="177" />
+              </points>
+            </layout>
+          </item>
+          <item id="di183044653312802837" iid="5810d20515b941418a35255716de34ab" creation-date="09/04/2014 00:57:25" order-index="106" type="relation">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" name-position="10,-10" auto-path="" x1="645" y1="422" x2="847" y2="575" start-border-pos="0.524298197428385" end-border-pos="0.0872368367513021">
+              <points>
+                <point x="645" y="422" />
+                <point x="847" y="575" />
+              </points>
+            </layout>
+          </item>
+          <item id="di316844186160489613" iid="ce25efbc2a844345931bc2a798391eef" creation-date="09/03/2014 23:56:42" order-index="20" type="relation">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" name-position="10,-10" auto-path="" x1="637" y1="674" x2="821" y2="707" start-border-pos="0.468872706095378" end-border-pos="0.948048177734432">
+              <points>
+                <point x="637" y="674" />
+                <point x="821" y="707" />
+              </points>
+            </layout>
+          </item>
+          <item id="di427072435186469445" iid="0c6d6077237b4996aa047571261655ad" creation-date="09/04/2014 00:28:41" order-index="48" type="relation">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" name-position="10,-10" auto-path="" x1="594" y1="232" x2="636" y2="177" start-border-pos="0.143823547363281" end-border-pos="0.672058868408203">
+              <points>
+                <point x="594" y="232" />
+                <point x="636" y="177" />
+              </points>
+            </layout>
+          </item>
+          <item id="di742713091239056363" iid="418c3739513b451ca8109ce4f0ca0eb1" creation-date="09/04/2014 00:29:10" order-index="50" type="relation">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" name-position="10,-10" auto-path="" x1="607" y1="232" x2="695" y2="177" start-border-pos="0.165" end-border-pos="0.736111111111111">
+              <points>
+                <point x="607" y="232" />
+                <point x="695" y="177" />
+              </points>
+            </layout>
+          </item>
+          <item id="di206352761681328903" iid="9e26fd1919ea42438b89ecd08c5ad1cd" creation-date="09/04/2014 00:30:16" order-index="53" type="entity">
+            <layout ax="409" ay="72" awidth="73" aheight="30" x="409" y="72" width="73" height="30" angle="0" />
+          </item>
+          <item id="di414850100470371287" iid="3442df8a2a1242fd8604f9916e365254" creation-date="09/04/2014 00:30:16" order-index="54" type="relation">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" name-position="10,-10" auto-path="" x1="570" y1="232" x2="459" y2="102" start-border-pos="0.10359375" end-border-pos="0.579302226027397">
+              <points>
+                <point x="570" y="232" />
+                <point x="459" y="102" />
+              </points>
+            </layout>
+          </item>
+          <item id="di778238916141781341" iid="d31df14972b04be5a01d0ffdcee3ff91" creation-date="09/04/2014 00:30:42" order-index="55" type="entity">
+            <layout ax="500" ay="72" awidth="76" aheight="30" x="500" y="72" width="76" height="30" angle="0" />
+          </item>
+          <item id="di516998152793677756" iid="f6d2b4359826406991982db814f7d77e" creation-date="09/04/2014 00:30:42" order-index="56" type="relation">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" name-position="10,-10" auto-path="" x1="579" y1="232" x2="542" y2="102" start-border-pos="0.11796875" end-border-pos="0.611122532894737">
+              <points>
+                <point x="579" y="232" />
+                <point x="542" y="102" />
+              </points>
+            </layout>
+          </item>
+          <item id="di641093726550127571" iid="ab4262434fd94ac6b2728838cf7c9af7" creation-date="09/04/2014 00:31:01" order-index="57" type="entity">
+            <layout ax="589" ay="72" awidth="72" aheight="30" x="589" y="72" width="72" height="30" angle="0" />
+          </item>
+          <item id="di623423031945745494" iid="23f105faf4964580ab1d68494b93e11e" creation-date="09/04/2014 00:31:01" order-index="58" type="relation">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" name-position="10,-10" auto-path="" x1="587" y1="232" x2="621" y2="102" start-border-pos="0.1315625" end-border-pos="0.638671875">
+              <points>
+                <point x="587" y="232" />
+                <point x="621" y="102" />
+              </points>
+            </layout>
+          </item>
+          <item id="di260818447829401128" iid="4063e6f996804603bd967703d30bfbf6" creation-date="09/04/2014 00:31:18" order-index="59" type="entity">
+            <layout ax="679" ay="72" awidth="60" aheight="30" x="679" y="72" width="60" height="30" angle="0" />
+          </item>
+          <item id="di535421720537734458" iid="4f556ad426be47a396dbaed8c76eaebf" creation-date="09/04/2014 00:31:18" order-index="60" type="relation">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" name-position="10,-10" auto-path="" x1="595" y1="232" x2="697" y2="102" start-border-pos="0.1446875" end-border-pos="0.67421875">
+              <points>
+                <point x="595" y="232" />
+                <point x="697" y="102" />
+              </points>
+            </layout>
+          </item>
+          <item id="di279314546258176208" iid="1aea8b6d626e493a8db467950ff7f30b" creation-date="09/04/2014 00:31:57" order-index="62" type="relation">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" name-position="10,-10" auto-path="" x1="632" y1="232" x2="823" y2="173" start-border-pos="0.205882364908854" end-border-pos="0.78484853108724">
+              <points>
+                <point x="632" y="232" />
+                <point x="823" y="173" />
+              </points>
+            </layout>
+          </item>
+          <item id="di644088026164480651" iid="24767b21bb314044abfefbaddeec12bd" creation-date="09/04/2014 00:40:11" order-index="69" type="entity">
+            <layout ax="762" ay="72" awidth="79" aheight="30" x="762" y="72" width="79" height="30" angle="0" />
+          </item>
+          <item id="di733333161855795588" iid="57a8238fdef043049c97238532a7bd44" creation-date="09/04/2014 00:52:45" order-index="100" type="relation">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" name-position="10,-10" auto-path="" x1="537" y1="675" x2="389" y2="704" start-border-pos="0.771964391072591" end-border-pos="0.27743174235026">
+              <points>
+                <point x="537" y="675" />
+                <point x="389" y="704" />
+              </points>
+            </layout>
+          </item>
+          <item id="di378999424504028622" iid="1bb15ee35b4040b2a4d4e0c941096476" creation-date="09/04/2014 00:22:48" order-index="41" type="entity">
+            <layout ax="388" ay="147" awidth="60" aheight="30" x="388" y="147" width="60" height="30" angle="0" />
+          </item>
+          <item id="di709362387993258967" iid="aeace53f91924b7d94370f40d54b9a3b" creation-date="09/04/2014 00:28:07" order-index="43" type="entity">
+            <layout ax="464" ay="147" awidth="68" aheight="30" x="464" y="147" width="68" height="30" angle="0" />
+          </item>
+          <item id="di115231266102728204" iid="cf6050c6b40a4d368ee6f3c2e7ae1315" creation-date="09/04/2014 00:28:22" order-index="45" type="entity">
+            <layout ax="546" ay="147" awidth="60" aheight="30" x="546" y="147" width="60" height="30" angle="0" />
+          </item>
+          <item id="di836924724819597360" iid="450174eb62b241d198533952d796e325" creation-date="09/04/2014 00:28:41" order-index="47" type="entity">
+            <layout ax="617" ay="147" awidth="60" aheight="30" x="617" y="147" width="60" height="30" angle="0" />
+          </item>
+          <item id="di707807843309593217" iid="45cc52a2b5d1422ab6649db71d19cfe8" creation-date="09/04/2014 00:29:10" order-index="49" type="entity">
+            <layout ax="692" ay="147" awidth="54" aheight="30" x="692" y="147" width="54" height="30" angle="0" />
+          </item>
+          <item id="di547331956774775458" iid="39f1d83263ce42acb4b4b06512a2c633" creation-date="09/04/2014 00:29:26" order-index="51" type="entity">
+            <layout ax="759" ay="147" awidth="47" aheight="30" x="759" y="147" width="47" height="30" angle="0" />
+          </item>
+          <item id="di337410301316901416" iid="c89470c359db4e619fda3e279889c898" creation-date="09/04/2014 00:29:26" order-index="52" type="relation">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" name-position="10,-10" auto-path="" x1="618" y1="232" x2="759" y2="172" start-border-pos="0.183529459635417" end-border-pos="0.79313227335612">
+              <points>
+                <point x="618" y="232" />
+                <point x="759" y="172" />
+              </points>
+            </layout>
+          </item>
+          <item id="di212271010848106632" iid="eb11bceb102b491b8823fd219a66d0e5" creation-date="09/04/2014 00:31:57" order-index="61" type="entity">
+            <layout ax="823" ay="147" awidth="71" aheight="30" x="823" y="147" width="71" height="30" angle="0" />
+          </item>
+          <item id="di498612854647760414" iid="b803728af55540f9ac0c1b653d842f07" creation-date="09/04/2014 00:36:51" order-index="63" type="entity">
+            <layout ax="906" ay="147" awidth="50" aheight="30" x="906" y="147" width="50" height="30" angle="0" />
+          </item>
+          <item id="di522396241780002532" iid="2db39d44db1b4748b148079f34aa4a82" creation-date="09/04/2014 00:36:51" order-index="64" type="relation">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" name-position="10,-10" auto-path="" x1="644" y1="232" x2="906" y2="168" start-border-pos="0.227352905273437" end-border-pos="0.824113972981771">
+              <points>
+                <point x="644" y="232" />
+                <point x="906" y="168" />
+              </points>
+            </layout>
+          </item>
+          <item id="di332668282285766252" iid="728439d111e346d7891a8c5606b6365e" creation-date="09/04/2014 00:53:06" order-index="102" type="comment-connector">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" name-position="10,-10" auto-path="" x1="332" y1="767" x2="330" y2="731" start-border-pos="0.125084149395978" end-border-pos="0.622994623264345">
+              <points>
+                <point x="332" y="767" />
+                <point x="330" y="731" />
+              </points>
+            </layout>
+            <relation from="di937598212328135342" from-iid="0c7c5a2360e64950be903654d06f5446" to="di760734205518717561" to-iid="8fad1cb770fe414a98e499202837595a" />
+          </item>
+          <item id="di321903546163813748" iid="621b3735f9ae4860b9d07c3034bb412c" creation-date="09/03/2014 23:58:52" order-index="29" type="entity">
+            <layout ax="599.9938" ay="844.0308" awidth="135" aheight="31" x="599.9938" y="844.0308" width="135" height="31" angle="0" />
+          </item>
+          <item id="di181562562444202419" iid="874bcbb9ee8049a1b2f9beaf2e943cd1" creation-date="09/04/2014 00:00:00" order-index="31" type="entity">
+            <layout ax="705.4907" ay="767.0308" awidth="135" aheight="30" x="705.4907" y="767.0308" width="135" height="30" angle="0" />
+          </item>
+          <item id="di712287367213177784" iid="4f0dc258709a49eabde6d3996846a256" creation-date="09/04/2014 00:00:25" order-index="33" type="entity">
+            <layout ax="494.4969" ay="773.0308" awidth="135" aheight="24" x="494.4969" y="773.0308" width="135" height="24" angle="0" />
+          </item>
+          <item id="di564917100264376433" iid="a766ce339112406da8ce6c5ba545474d" creation-date="09/04/2014 00:00:49" order-index="35" type="entity">
+            <layout ax="389" ay="837.0308" awidth="135" aheight="38" x="389" y="837.0308" width="135" height="38" angle="0" />
+          </item>
+          <item id="di937598212328135342" iid="0c7c5a2360e64950be903654d06f5446" creation-date="09/04/2014 00:53:06" order-index="101" type="entity">
+            <layout ax="264" ay="767.0308" awidth="135" aheight="30" x="264" y="767.0308" width="135" height="30" angle="0" />
+          </item>
+          <item id="di574359345376961360" iid="f3f68d97060a4c16b9bab4984712778c" creation-date="09/04/2014 00:40:11" order-index="70" type="relation">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" name-position="10,-10" auto-path="" x1="604" y1="232" x2="781" y2="102" start-border-pos="0.15921875" end-border-pos="0.68839003164557">
+              <points>
+                <point x="604" y="232" />
+                <point x="781" y="102" />
+              </points>
+            </layout>
+          </item>
+          <item id="di319512590436294345" iid="eea55835cb244e7d8c28ff131f876254" creation-date="09/03/2014 23:56:42" order-index="19" type="entity">
+            <layout ax="820.9875" ay="701" awidth="95.49689" aheight="29.53845" x="820.9875" y="701" width="95.49689" height="29.53845" angle="0" />
+          </item>
+          <item id="di591361410393429220" iid="669e4e196158440e8991a74b6b5fbe61" creation-date="09/03/2014 23:57:16" order-index="25" type="entity">
+            <layout ax="715.4907" ay="701" awidth="95.49689" aheight="29.53845" x="715.4907" y="701" width="95.49689" height="29.53845" angle="0" />
+          </item>
+          <item id="di880842169128298434" iid="f75f85b9e28b45c1a542eb03df59df63" creation-date="09/03/2014 23:56:54" order-index="21" type="entity">
+            <layout ax="609.9938" ay="701" awidth="95.49689" aheight="29.53845" x="609.9938" y="701" width="95.49689" height="29.53845" angle="0" />
+          </item>
+          <item id="di960968104935754623" iid="c72072d421354472b8575fe1f10dcf19" creation-date="09/03/2014 23:57:09" order-index="23" type="entity">
+            <layout ax="504.4969" ay="701" awidth="95.49689" aheight="29.53845" x="504.4969" y="701" width="95.49689" height="29.53845" angle="0" />
+          </item>
+          <item id="di739838186686085567" iid="f71c1712a79a49bd985cc2a886009583" creation-date="09/03/2014 23:57:24" order-index="27" type="entity">
+            <layout ax="399" ay="701" awidth="95.49689" aheight="29.53845" x="399" y="701" width="95.49689" height="29.53845" angle="0" />
+          </item>
+          <item id="di760734205518717561" iid="8fad1cb770fe414a98e499202837595a" creation-date="09/04/2014 00:52:45" order-index="99" type="entity">
+            <layout ax="270" ay="701" awidth="119" aheight="30" x="270" y="701" width="119" height="30" angle="0" />
+          </item>
+        </layer>
+      </diagram>
+    </model>
+  </models>
+  <documents />
+  <document-templates />
+</sim-project>
