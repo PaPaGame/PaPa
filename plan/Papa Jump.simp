@@ -115,7 +115,7 @@
       <owned-items />
       <style class="default" />
     </item>
-    <item id="di629950408434662774" cid="EDG001" type="mind-map-edge" name="" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P978479d830694b0b9456dfbde74ced6d" creation-date="09/04/2014 16:17:39">
+    <item id="di629950408434662774" cid="EDG001" type="mind-map-edge" name="" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P978479d830694b0b9456dfbde74ced6d" creation-date="09/04/2014 16:17:39">
       <stereotypes />
       <tagged-values />
       <associated-diagrams />
@@ -129,7 +129,7 @@
       <owned-items />
       <style class="default" />
     </item>
-    <item id="di422785570481136815" cid="NOD001" type="mind-map-node" name="游戏币" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P978479d830694b0b9456dfbde74ced6d" creation-date="09/04/2014 16:17:39">
+    <item id="di422785570481136815" cid="NOD001" type="mind-map-node" name="游戏币" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P978479d830694b0b9456dfbde74ced6d" creation-date="09/04/2014 16:17:39">
       <stereotypes />
       <tagged-values />
       <associated-diagrams />
@@ -143,7 +143,7 @@
       <owned-items />
       <style class="default" />
     </item>
-    <item id="di944702531517351029" cid="NOD002" type="mind-map-node" name="颠倒跳板" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P978479d830694b0b9456dfbde74ced6d" creation-date="09/04/2014 16:19:11">
+    <item id="di944702531517351029" cid="NOD002" type="mind-map-node" name="颠倒跳板" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P978479d830694b0b9456dfbde74ced6d" creation-date="09/04/2014 16:19:11">
       <stereotypes />
       <tagged-values />
       <associated-diagrams />
@@ -865,14 +865,14 @@
       <owned-items />
       <style class="default" />
     </item>
-    <item id="di366321606721896713" cid="EDG002" type="mind-map-edge" name="" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P978479d830694b0b9456dfbde74ced6d" creation-date="09/04/2014 16:19:11">
+    <item id="di366321606721896713" cid="EDG002" type="mind-map-edge" name="" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P978479d830694b0b9456dfbde74ced6d" creation-date="09/04/2014 16:19:11">
       <stereotypes />
       <tagged-values />
       <associated-diagrams />
       <owned-items />
       <style class="default" />
     </item>
-    <item id="di881408224605748319" cid="CMT001" type="comment" name="Comment" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P978479d830694b0b9456dfbde74ced6d" creation-date="09/04/2014 16:19:28">
+    <item id="di881408224605748319" cid="CMT001" type="comment" name="Comment" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P978479d830694b0b9456dfbde74ced6d" creation-date="09/04/2014 16:19:28">
       <stereotypes />
       <tagged-values />
       <associated-diagrams />
@@ -880,7 +880,36 @@
       <style class="default" />
       <comment>踩中后,效果同 颠倒道具</comment>
     </item>
-    <item id="di595402810857013694" cid="CN001" type="comment-connector" name="" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P978479d830694b0b9456dfbde74ced6d" creation-date="09/04/2014 16:19:28">
+    <item id="di595402810857013694" cid="CN001" type="comment-connector" name="" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P978479d830694b0b9456dfbde74ced6d" creation-date="09/04/2014 16:19:28">
+      <stereotypes />
+      <tagged-values />
+      <associated-diagrams />
+      <owned-items />
+      <style class="default" />
+    </item>
+    <item id="di205022394897108466" cid="NOD001" type="mind-map-node" name="碰必死跳板" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P978479d830694b0b9456dfbde74ced6d" creation-date="09/05/2014 15:57:25">
+      <stereotypes />
+      <tagged-values />
+      <associated-diagrams />
+      <owned-items />
+      <style class="default" />
+    </item>
+    <item id="di783730223608953691" cid="EDG001" type="mind-map-edge" name="" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P978479d830694b0b9456dfbde74ced6d" creation-date="09/05/2014 15:57:25">
+      <stereotypes />
+      <tagged-values />
+      <associated-diagrams />
+      <owned-items />
+      <style class="default" />
+    </item>
+    <item id="di539722012144592594" cid="CMT001" type="comment" name="Comment" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P978479d830694b0b9456dfbde74ced6d" creation-date="09/05/2014 15:57:47">
+      <stereotypes />
+      <tagged-values />
+      <associated-diagrams />
+      <owned-items />
+      <style class="default" />
+      <comment>如同其名</comment>
+    </item>
+    <item id="di392463754505743931" cid="CN001" type="comment-connector" name="" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P978479d830694b0b9456dfbde74ced6d" creation-date="09/05/2014 15:57:47">
       <stereotypes />
       <tagged-values />
       <associated-diagrams />
@@ -915,27 +944,27 @@
           </authors>
           <description />
           <creation-date>09/03/2014 23:53:40</creation-date>
-          <change-date>09/04/2014 16:19:28</change-date>
+          <change-date>09/05/2014 15:57:47</change-date>
           <revision-count>0</revision-count>
           <version />
         </meta>
         <tagged-values />
         <abstract-items>
-          <item id="di295218707936241124" cid="ELEM001" type="universal-connector" name="" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P978479d830694b0b9456dfbde74ced6d" creation-date="09/04/2014 16:18:35">
+          <item id="di295218707936241124" cid="ELEM001" type="universal-connector" name="" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P978479d830694b0b9456dfbde74ced6d" creation-date="09/04/2014 16:18:35">
             <stereotypes />
             <tagged-values />
             <associated-diagrams />
             <owned-items />
             <style class="default" />
           </item>
-          <item id="di561679493108477785" cid="ELEM002" type="universal-connector" name="" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P978479d830694b0b9456dfbde74ced6d" creation-date="09/04/2014 16:18:41">
+          <item id="di561679493108477785" cid="ELEM002" type="universal-connector" name="" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P978479d830694b0b9456dfbde74ced6d" creation-date="09/04/2014 16:18:41">
             <stereotypes />
             <tagged-values />
             <associated-diagrams />
             <owned-items />
             <style class="default" />
           </item>
-          <item id="di789950703897289552" cid="ELEM003" type="universal-connector" name="" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P978479d830694b0b9456dfbde74ced6d" creation-date="09/04/2014 16:18:46">
+          <item id="di789950703897289552" cid="ELEM003" type="universal-connector" name="" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P978479d830694b0b9456dfbde74ced6d" creation-date="09/04/2014 16:18:46">
             <stereotypes />
             <tagged-values />
             <associated-diagrams />
@@ -1578,6 +1607,29 @@
               </points>
             </layout>
             <relation from="di881408224605748319" from-iid="b92f8859c31147319388dceecee7c5ac" to="di944702531517351029" to-iid="c7e9094dbc7d45c78a1368d67c53fbd2" />
+          </item>
+          <item id="di205022394897108466" iid="c0b975c3608b4128a163cc8d34b492cf" creation-date="09/05/2014 15:57:25" order-index="116" type="entity">
+            <layout ax="930" ay="700" awidth="150" aheight="30" x="930" y="700" width="150" height="30" angle="0" />
+          </item>
+          <item id="di783730223608953691" iid="62296fc50093453eb70c0ba546da6214" creation-date="09/05/2014 15:57:25" order-index="117" type="relation">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" name-position="10,-10" auto-path="" x1="637" y1="671" x2="930" y2="706" start-border-pos="0.436979293823242" end-border-pos="0.949760945638021">
+              <points>
+                <point x="637" y="671" />
+                <point x="930" y="706" />
+              </points>
+            </layout>
+          </item>
+          <item id="di539722012144592594" iid="ffb246bcc0e645cd85a4bb577ca1c2dd" creation-date="09/05/2014 15:57:47" order-index="118" type="entity">
+            <layout ax="940" ay="770" awidth="135" aheight="20" x="940" y="770" width="135" height="20" angle="0" />
+          </item>
+          <item id="di392463754505743931" iid="7e8f6df471934139a09a60f0453b30f2" creation-date="09/05/2014 15:57:47" order-index="119" type="comment-connector">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" name-position="10,-10" auto-path="" x1="1008" y1="770" x2="1006" y2="730" start-border-pos="0.125071207682292" end-border-pos="0.623846130371094">
+              <points>
+                <point x="1008" y="770" />
+                <point x="1006" y="730" />
+              </points>
+            </layout>
+            <relation from="di539722012144592594" from-iid="ffb246bcc0e645cd85a4bb577ca1c2dd" to="di205022394897108466" to-iid="c0b975c3608b4128a163cc8d34b492cf" />
           </item>
         </layer>
       </diagram>
