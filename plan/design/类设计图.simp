@@ -1,10 +1,64 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<sim-project version="6.85" multi-file="no">
+<sim-project version="7.6" multi-file="no">
   <meta>
     <name>PaPa</name>
     <authors> </authors>
     <description />
   </meta>
+  <counters models="1">
+    <entity-names>
+      <counter>
+        <item-type stereotype="" type="UmlClass" />
+        <value>2</value>
+      </counter>
+      <counter>
+        <item-type stereotype="" type="UmlEnumeration" />
+        <value>1</value>
+      </counter>
+    </entity-names>
+    <entity-ids>
+      <counter>
+        <item-type stereotype="" type="AbstractElementGroup" />
+        <value>75</value>
+      </counter>
+      <counter>
+        <item-type stereotype="" type="UmlClass" />
+        <value>6</value>
+      </counter>
+      <counter>
+        <item-type stereotype="" type="UmlContainment" />
+        <value>2</value>
+      </counter>
+      <counter>
+        <item-type stereotype="" type="UmlEnumeration" />
+        <value>2</value>
+      </counter>
+      <counter>
+        <item-type stereotype="" type="UmlRealization" />
+        <value>2</value>
+      </counter>
+    </entity-ids>
+    <diagrams>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.Diagrams.UmlDiagrams.UmlClassDiagram</type>
+        <value>1</value>
+      </counter>
+    </diagrams>
+    <fields>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.DiagramItems.Fields.OperationField</type>
+        <value>30</value>
+      </counter>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.DiagramItems.Fields.AttributeField</type>
+        <value>15</value>
+      </counter>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.DiagramItems.Fields.EnumerationItemField</type>
+        <value>3</value>
+      </counter>
+    </fields>
+  </counters>
   <management>
     <persons>
       <person id="P95073ac3553248579bdc5b25a9e0d6f9">
@@ -31,7 +85,7 @@
       <type id="int" tid="" name="int" description="" nullable="false" />
       <type id="void" tid="" name="void" description="" nullable="false" />
       <type id="Point" tid="" name="Point" description="" nullable="false" />
-      <type id="Class:di246944419662707016" tid="" name="IClipDataList" description="" nullable="false" class-ref="di246944419662707016" />
+      <type id="Class:di246944419662707016" tid="" name="IClipFrameDataList" description="" nullable="false" class-ref="di246944419662707016" />
       <type id="vector" tid="" name="vector" description="" nullable="false" />
       <type id="void;" tid="" name="void;" description="" nullable="false" />
       <type id="int;" tid="" name="int;" description="" nullable="false" />
@@ -66,13 +120,16 @@
       <type id="void//渲染某帧" tid="" name="void//渲染某帧" description="" nullable="false" />
       <type id="IClip = ClipFactory.create(ClipConst.TYPE_NORMAL, data);" tid="" name="IClip = ClipFactory.create(ClipConst.TYPE_NORMAL, data);" description="" nullable="false" />
       <type id=";......do sth...;" tid="" name=";......do sth...;" description="" nullable="false" />
+      <type id="void;//循环次数" tid="" name="void;//循环次数" description="" nullable="false" />
+      <type id="ClipData;//当前帧的数据" tid="" name="ClipData;//当前帧的数据" description="" nullable="false" />
+      <type id="IClip = ClipFactory.create(data, ClipConst.TYPE_NORMAL)," tid="" name="IClip = ClipFactory.create(data, ClipConst.TYPE_NORMAL)," description="" nullable="false" />
+      <type id="void;//最后一帧、每一帧派发事件如果hasEevent" tid="" name="void;//最后一帧、每一帧派发事件如果hasEevent" description="" nullable="false" />
     </custom-types>
   </types>
   <filters />
   <items>
     <item id="di456293686304068575" cid="CMT001" type="comment" name="Comment" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creation-date="09/04/2014 20:42:12">
       <stereotypes />
-      <tagged-values />
       <associated-diagrams />
       <owned-items />
       <style class="default" />
@@ -80,14 +137,12 @@
     </item>
     <item id="di602928593468616931" cid="CN001" type="comment-connector" name="" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creation-date="09/04/2014 20:42:12">
       <stereotypes />
-      <tagged-values />
       <associated-diagrams />
       <owned-items />
       <style class="default" />
     </item>
     <item id="di840957974157233628" cid="CMT002" type="comment" name="Comment" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creation-date="09/04/2014 20:42:58">
       <stereotypes />
-      <tagged-values />
       <associated-diagrams />
       <owned-items />
       <style class="default" />
@@ -95,14 +150,12 @@
     </item>
     <item id="di982223390282742630" cid="CN002" type="comment-connector" name="" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creation-date="09/04/2014 20:42:58">
       <stereotypes />
-      <tagged-values />
       <associated-diagrams />
       <owned-items />
       <style class="default" />
     </item>
     <item id="di835345922552430034" cid="CMT003" type="comment" name="Comment" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creation-date="09/04/2014 20:43:17">
       <stereotypes />
-      <tagged-values />
       <associated-diagrams />
       <owned-items />
       <style class="default" />
@@ -110,14 +163,12 @@
     </item>
     <item id="di809479617159069805" cid="CN003" type="comment-connector" name="" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creation-date="09/04/2014 20:43:17">
       <stereotypes />
-      <tagged-values />
       <associated-diagrams />
       <owned-items />
       <style class="default" />
     </item>
     <item id="di279379075995997529" cid="CMT004" type="comment" name="Comment" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creation-date="09/04/2014 20:45:15">
       <stereotypes />
-      <tagged-values />
       <associated-diagrams />
       <owned-items />
       <style class="default" />
@@ -125,14 +176,12 @@
     </item>
     <item id="di135833271953355742" cid="CN004" type="comment-connector" name="" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creation-date="09/04/2014 20:45:15">
       <stereotypes />
-      <tagged-values />
       <associated-diagrams />
       <owned-items />
       <style class="default" />
     </item>
     <item id="di415077205495380940" cid="CMT005" type="comment" name="Comment" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creation-date="09/04/2014 20:47:04">
       <stereotypes />
-      <tagged-values />
       <associated-diagrams />
       <owned-items />
       <style class="default" />
@@ -141,14 +190,12 @@
     </item>
     <item id="di835858610102128463" cid="CN005" type="comment-connector" name="" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creation-date="09/04/2014 20:47:04">
       <stereotypes />
-      <tagged-values />
       <associated-diagrams />
       <owned-items />
       <style class="default" />
     </item>
     <item id="di681366325421897052" cid="CMT006" type="comment" name="Comment" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creation-date="09/04/2014 20:53:56">
       <stereotypes />
-      <tagged-values />
       <associated-diagrams />
       <owned-items />
       <style class="default" />
@@ -157,21 +204,18 @@
     </item>
     <item id="di579059840554563210" cid="ELEM001" type="uml-provided-interface-connector" name="" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creation-date="09/04/2014 20:49:37">
       <stereotypes />
-      <tagged-values />
       <associated-diagrams />
       <owned-items />
       <style class="default" />
     </item>
     <item id="di183105583579089289" cid="CN006" type="comment-connector" name="" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creation-date="09/04/2014 20:53:56">
       <stereotypes />
-      <tagged-values />
       <associated-diagrams />
       <owned-items />
       <style class="default" />
     </item>
     <item id="di464732898896061996" cid="CMT007" type="comment" name="Comment" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creation-date="09/04/2014 20:56:18">
       <stereotypes />
-      <tagged-values />
       <associated-diagrams />
       <owned-items />
       <style class="default" />
@@ -179,14 +223,12 @@
     </item>
     <item id="di910250262581789698" cid="CN007" type="comment-connector" name="" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creation-date="09/04/2014 20:56:18">
       <stereotypes />
-      <tagged-values />
       <associated-diagrams />
       <owned-items />
       <style class="default" />
     </item>
     <item id="di311389967271309753" cid="CMT008" type="comment" name="Comment" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creation-date="09/04/2014 21:29:29">
       <stereotypes />
-      <tagged-values />
       <associated-diagrams />
       <owned-items />
       <style class="default" />
@@ -194,14 +236,12 @@
     </item>
     <item id="di379514022935034369" cid="CN008" type="comment-connector" name="" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creation-date="09/04/2014 21:29:29">
       <stereotypes />
-      <tagged-values />
       <associated-diagrams />
       <owned-items />
       <style class="default" />
     </item>
     <item id="di627143371889511204" cid="CMT009" type="comment" name="Comment" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creation-date="09/04/2014 21:32:21">
       <stereotypes />
-      <tagged-values />
       <associated-diagrams />
       <owned-items />
       <style class="default" />
@@ -209,14 +249,12 @@
     </item>
     <item id="di172597783944979514" cid="CN009" type="comment-connector" name="" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creation-date="09/04/2014 21:32:21">
       <stereotypes />
-      <tagged-values />
       <associated-diagrams />
       <owned-items />
       <style class="default" />
     </item>
     <item id="di922848576453132284" cid="CMT010" type="comment" name="Comment" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creation-date="09/04/2014 21:35:40">
       <stereotypes />
-      <tagged-values />
       <associated-diagrams />
       <owned-items />
       <style class="default" />
@@ -224,7 +262,6 @@
     </item>
     <item id="di612395289725683871" cid="CN010" type="comment-connector" name="" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creation-date="09/04/2014 21:35:40">
       <stereotypes />
-      <tagged-values />
       <associated-diagrams />
       <owned-items />
       <style class="default" />
@@ -242,10 +279,9 @@
         <revision-count>0</revision-count>
         <version />
       </meta>
-      <tagged-values />
       <abstract-items />
       <sub-models />
-      <diagram type="uml-class" id="p180448467175000243" name="Clip" order-index="1" show-id="false" show-name="true" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" show-template-parameters="true" show-attributes="true" show-attribute-visibility="true" show-operations="true" show-operation-parameters="true" show-operation-visibility="true" show-nullability="true" show-sequence-number="false" show-extension-points="true" show-relationship-texts="true" auto-routed-paths="false">
+      <diagram type="uml-class" id="p180448467175000243" name="Clip" order-index="1" show-id="false" show-name="true" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" show-template-parameters="true" show-fields="true" show-empty-compartments="true" show-attributes="true" show-attribute-visibility="true" show-operations="true" show-operation-parameters="true" show-operation-visibility="true" show-nullability="true" show-sequence-number="false" show-extension-points="true" show-relationship-texts="true" auto-routed-paths="false">
         <style>
           <background-color index="1" color="#FFFFFFFF" />
           <background-color index="2" color="#FFFFFFFF" />
@@ -257,86 +293,96 @@
           </authors>
           <description />
           <creation-date>09/04/2014 19:08:21</creation-date>
-          <change-date>09/04/2014 21:35:40</change-date>
+          <change-date>09/05/2014 11:13:29</change-date>
           <revision-count>0</revision-count>
           <version />
         </meta>
-        <tagged-values />
         <abstract-items>
           <item id="di444138550106846842" cid="C001" type="class" name="IClip" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creation-date="09/04/2014 20:04:27">
             <stereotypes>
               <stereotype name="interface" />
             </stereotypes>
-            <tagged-values />
             <associated-diagrams />
             <owned-items />
             <style class="default" />
             <attributes />
             <operations>
-              <operation id="o7fa9d7ec20bb4587a22eeea677b8e74c19" name="update" type="void;//更新" type-id="void;//更新" visibility="public" abstract="false" virtual="false" static="false">
+              <operation id="o7fa9d7ec20bb4587a22eeea677b8e74c19" cid="OP001" name="update" type="void;//更新" type-id="void;//更新" visibility="public" abstract="false" virtual="false" static="false">
                 <parameters>
-                  <parameter id="" name="elpased" type="Integer" type-id="Uml.Integer" default-value="" />
+                  <parameter id="" name="elpased" type="Integer" type-id="Uml.Integer" />
                 </parameters>
                 <source-codes />
               </operation>
-              <operation id="o211da0eb30db4c1ca63f24a6dc3729f4805" name="play" type="void;//播放" type-id="void;//播放" visibility="public" abstract="false" virtual="false" static="false">
-                <parameters>
-                  <parameter id="" name="frameName" type="Object" type-id="Uml.Object" default-value="null" />
-                </parameters>
-                <source-codes />
-              </operation>
-              <operation id="o0922ac9ecb0b4282b19174dccf044b16509" name="stop" type="void;//停止" type-id="void;//停止" visibility="public" abstract="false" virtual="false" static="false">
+              <operation id="o211da0eb30db4c1ca63f24a6dc3729f4805" cid="OP002" name="play" type="void;//播放" type-id="void;//播放" visibility="public" abstract="false" virtual="false" static="false">
                 <parameters>
                   <parameter id="" name="frameName" type="Object" type-id="Uml.Object" default-value="null" />
                 </parameters>
                 <source-codes />
               </operation>
-              <operation id="o3fbb7f9fe2df4ea5b532e8cb8c1c3b3b637" name="pause" type="void;暂停" type-id="void;暂停" visibility="public" abstract="false" virtual="false" static="false">
-                <source-codes />
-              </operation>
-              <operation id="obc717e1dd922472eb5cfc0bdb6256b42117" name="set frameRate" type="void;//帧频" type-id="void;//帧频" visibility="public" abstract="false" virtual="false" static="false">
+              <operation id="o0922ac9ecb0b4282b19174dccf044b16509" cid="OP003" name="stop" type="void;//停止" type-id="void;//停止" visibility="public" abstract="false" virtual="false" static="false">
                 <parameters>
-                  <parameter id="" name="value" type="int" type-id="int" default-value="" />
+                  <parameter id="" name="frameName" type="Object" type-id="Uml.Object" default-value="null" />
                 </parameters>
                 <source-codes />
               </operation>
-              <operation id="o58a2fe24de6c4ec38248ac7a8da0de82237" name="get frameRate" type="int;" type-id="int;" visibility="public" abstract="false" virtual="false" static="false">
+              <operation id="o3fbb7f9fe2df4ea5b532e8cb8c1c3b3b637" cid="OP004" name="pause" type="void;暂停" type-id="void;暂停" visibility="public" abstract="false" virtual="false" static="false">
                 <source-codes />
               </operation>
-              <operation id="o49e10e7200b845be91b519d0cfff8f24221" name="set pivot" type="void;//注册点" type-id="void;//注册点" visibility="public" abstract="false" virtual="false" static="false">
+              <operation id="obc717e1dd922472eb5cfc0bdb6256b42117" cid="OP005" name="set frameRate" type="void;//帧频" type-id="void;//帧频" visibility="public" abstract="false" virtual="false" static="false">
                 <parameters>
-                  <parameter id="" name="value" type="Point" type-id="Point" default-value="" />
+                  <parameter id="" name="value" type="int" type-id="int" />
                 </parameters>
                 <source-codes />
               </operation>
-              <operation id="oda7daca2ea244e36b5f45823ede49c96846" name="get pivot" type="Point;" type-id="Point;" visibility="public" abstract="false" virtual="false" static="false">
+              <operation id="o58a2fe24de6c4ec38248ac7a8da0de82237" cid="OP006" name="get frameRate" type="int;" type-id="int;" visibility="public" abstract="false" virtual="false" static="false">
                 <source-codes />
               </operation>
-              <operation id="o262d8159de9e4082b9f27a21bc7a30dc373" name="set source" type="void;//数据源" type-id="void;//数据源" visibility="public" abstract="false" virtual="false" static="false">
+              <operation id="o49e10e7200b845be91b519d0cfff8f24221" cid="OP007" name="set pivot" type="void;//注册点" type-id="void;//注册点" visibility="public" abstract="false" virtual="false" static="false">
                 <parameters>
-                  <parameter id="" name="value" type="IClipDataList" type-id="Class:di246944419662707016" default-value="" />
+                  <parameter id="" name="value" type="Point" type-id="Point" />
                 </parameters>
                 <source-codes />
               </operation>
-              <operation id="o6e6acdc879074441bdb3b8d0e767cc47645" name="get source" type="IClipDataList;" type-id="IClipDataList;" visibility="public" abstract="false" virtual="false" static="false">
+              <operation id="oda7daca2ea244e36b5f45823ede49c96846" cid="OP008" name="get pivot" type="Point;" type-id="Point;" visibility="public" abstract="false" virtual="false" static="false">
                 <source-codes />
               </operation>
-              <operation id="o7a5b3e8c23674a9196316d8d479aaa55734" name="set frameAlign" type=";//每一帧对齐方式" type-id=";//每一帧对齐方式" visibility="public" abstract="false" virtual="false" static="false">
+              <operation id="o262d8159de9e4082b9f27a21bc7a30dc373" cid="OP009" name="set source" type="void;//数据源" type-id="void;//数据源" visibility="public" abstract="false" virtual="false" static="false">
                 <parameters>
-                  <parameter id="" name="value" type="String" type-id="Uml.String" default-value="" />
+                  <parameter id="" name="value" type="IClipFrameDataList" type-id="Class:di246944419662707016" />
                 </parameters>
                 <source-codes />
               </operation>
-              <operation id="o36de6bb06fc343fd83b16c89abbd41d6406" name="get frameAlign" type="String;" type-id="String;" visibility="public" abstract="false" virtual="false" static="false">
+              <operation id="o6e6acdc879074441bdb3b8d0e767cc47645" cid="OP010" name="get source" type="IClipDataList;" type-id="IClipDataList;" visibility="public" abstract="false" virtual="false" static="false">
                 <source-codes />
               </operation>
-              <operation id="oa6900c7449564985a63e04a65c1a409a342" name="set currentFrame" type=";//当前帧名称" type-id=";//当前帧名称" visibility="public" abstract="false" virtual="false" static="false">
+              <operation id="o7a5b3e8c23674a9196316d8d479aaa55734" cid="OP011" name="set frameAlign" type=";//每一帧对齐方式" type-id=";//每一帧对齐方式" visibility="public" abstract="false" virtual="false" static="false">
                 <parameters>
-                  <parameter id="" name="value" type="Object" type-id="Uml.Object" default-value="" />
+                  <parameter id="" name="value" type="String" type-id="Uml.String" />
                 </parameters>
                 <source-codes />
               </operation>
-              <operation id="o95135692ee4b410d8961b10c00639309846" name="get currentFrame" type="Object;" type-id="Object;" visibility="public" abstract="false" virtual="false" static="false">
+              <operation id="o36de6bb06fc343fd83b16c89abbd41d6406" cid="OP012" name="get frameAlign" type="String;" type-id="String;" visibility="public" abstract="false" virtual="false" static="false">
+                <source-codes />
+              </operation>
+              <operation id="oa6900c7449564985a63e04a65c1a409a342" cid="OP013" name="set currentFrame" type=";//当前帧名称" type-id=";//当前帧名称" visibility="public" abstract="false" virtual="false" static="false">
+                <parameters>
+                  <parameter id="" name="value" type="Object" type-id="Uml.Object" />
+                </parameters>
+                <source-codes />
+              </operation>
+              <operation id="o95135692ee4b410d8961b10c00639309846" cid="OP014" name="get currentFrame" type="Object;" type-id="Object;" visibility="public" abstract="false" virtual="false" static="false">
+                <source-codes />
+              </operation>
+              <operation id="o05c1a63d2b194b83bef567eeac1cc990232" cid="OP026" name="set repeat" type="void;//循环次数" type-id="void;//循环次数" visibility="public" abstract="false" virtual="false" static="false">
+                <parameters>
+                  <parameter id="" name="value" type="int" type-id="int" />
+                </parameters>
+                <source-codes />
+              </operation>
+              <operation id="o8d184556598c40f3aba071b3f917faf5275" cid="OP027" name="get repeat" type="int;" type-id="int;" visibility="public" abstract="false" virtual="false" static="false">
+                <source-codes />
+              </operation>
+              <operation id="oa2cff00a0e3a41bab54444306596f393913" cid="OP029" name="get currentData" type="ClipData;//当前帧的数据" type-id="ClipData;//当前帧的数据" visibility="public" abstract="false" virtual="false" static="false">
                 <source-codes />
               </operation>
             </operations>
@@ -344,23 +390,22 @@
               <source-codes />
             </template-parameters>
           </item>
-          <item id="di246944419662707016" cid="C002" type="class" name="IClipDataList" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creation-date="09/04/2014 20:21:06">
+          <item id="di246944419662707016" cid="C002" type="class" name="IClipFrameDataList" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creation-date="09/04/2014 20:21:06">
             <stereotypes>
               <stereotype name="interface" />
             </stereotypes>
-            <tagged-values />
             <associated-diagrams />
             <owned-items />
             <style class="default" />
             <attributes />
             <operations>
-              <operation id="oa264de139d7a4ac6885b07b7be20e75c494" name="set data" type="void;" type-id="void;" visibility="public" abstract="false" virtual="false" static="false">
+              <operation id="oa264de139d7a4ac6885b07b7be20e75c494" cid="OP015" name="set data" type="void;" type-id="void;" visibility="public" abstract="false" virtual="false" static="false">
                 <parameters>
-                  <parameter id="" name="value" type="vector.&lt;ClipData&gt;" type-id="vector.&lt;ClipData&gt;" default-value="" />
+                  <parameter id="" name="value" type="vector.&lt;ClipData&gt;" type-id="vector.&lt;ClipData&gt;" />
                 </parameters>
                 <source-codes />
               </operation>
-              <operation id="o7b9ac62275814db38065436e8739f9a6605" name="get data" type="Vector.&lt;ClipData&gt;;" type-id="Vector.&lt;ClipData&gt;;" visibility="public" abstract="false" virtual="false" static="false">
+              <operation id="o7b9ac62275814db38065436e8739f9a6605" cid="OP016" name="get data" type="Vector.&lt;ClipData&gt;;" type-id="Vector.&lt;ClipData&gt;;" visibility="public" abstract="false" virtual="false" static="false">
                 <source-codes />
               </operation>
             </operations>
@@ -368,16 +413,15 @@
               <source-codes />
             </template-parameters>
           </item>
-          <item id="di152430164961101577" cid="C004" type="class" name="ClipData" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creation-date="09/04/2014 20:28:28">
+          <item id="di152430164961101577" cid="C004" type="class" name="ClipFrameData" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creation-date="09/04/2014 20:28:28">
             <stereotypes />
-            <tagged-values />
             <associated-diagrams />
             <owned-items />
             <style class="default" />
             <attributes>
-              <attribute id="ae281d7467cc84d429dd3d41b0869603f108" name="public var bitmapData" type="BitmapData;" type-id="BitmapData;" visibility="private" abstract="false" virtual="false" />
-              <attribute id="a9570d51f0d9244e5816da46fa3087d85949" name="public var offset" type="Point;//位置偏移量" type-id="Point;//位置偏移量" visibility="private" abstract="false" virtual="false" />
-              <attribute id="a7e9539670b3e43b88783ded7a894c243126" name="public var frameName" type="Object;//帧名" type-id="Object;//帧名" visibility="private" abstract="false" virtual="false" />
+              <attribute id="ae281d7467cc84d429dd3d41b0869603f108" cid="AT001" name="public var bitmapData" type="BitmapData;" type-id="BitmapData;" visibility="private" abstract="false" virtual="false" static="false" />
+              <attribute id="a9570d51f0d9244e5816da46fa3087d85949" cid="AT002" name="public var offset" type="Point;//位置偏移量" type-id="Point;//位置偏移量" visibility="private" abstract="false" virtual="false" static="false" />
+              <attribute id="a7e9539670b3e43b88783ded7a894c243126" cid="AT003" name="public var frameName" type="Object;//帧名" type-id="Object;//帧名" visibility="private" abstract="false" virtual="false" static="false" />
             </attributes>
             <operations />
             <template-parameters>
@@ -388,7 +432,6 @@
             <stereotypes>
               <stereotype name="use" />
             </stereotypes>
-            <tagged-values />
             <associated-diagrams />
             <owned-items />
             <style class="default" />
@@ -397,7 +440,6 @@
             <stereotypes>
               <stereotype name="use" />
             </stereotypes>
-            <tagged-values />
             <associated-diagrams />
             <owned-items />
             <style class="default" />
@@ -406,22 +448,21 @@
             <stereotypes>
               <stereotype name="interface" />
             </stereotypes>
-            <tagged-values />
             <associated-diagrams />
             <owned-items />
             <style class="default" />
             <attributes />
             <operations>
-              <operation id="oee1aa3b595154e30a0be4eb75a98251d678" name="set data" type="void;" type-id="void;" visibility="public" abstract="false" virtual="false" static="false">
+              <operation id="oee1aa3b595154e30a0be4eb75a98251d678" cid="OP017" name="set data" type="void;" type-id="void;" visibility="public" abstract="false" virtual="false" static="false">
                 <parameters>
-                  <parameter id="" name="value" type="*" type-id="*" default-value="" />
+                  <parameter id="" name="value" type="*" type-id="*" />
                 </parameters>
                 <source-codes />
               </operation>
-              <operation id="o2c0ef2e1c94c4f158ac7925b936f8c66782" name="get data" type="*;" type-id="*;" visibility="public" abstract="false" virtual="false" static="false">
+              <operation id="o2c0ef2e1c94c4f158ac7925b936f8c66782" cid="OP018" name="get data" type="*;" type-id="*;" visibility="public" abstract="false" virtual="false" static="false">
                 <source-codes />
               </operation>
-              <operation id="oc056b8e77f5b4f829ae4d7946b3641b6150" name="get parsedData" type="ClipData;" type-id="ClipData;" visibility="public" abstract="false" virtual="false" static="false">
+              <operation id="oc056b8e77f5b4f829ae4d7946b3641b6150" cid="OP019" name="get parsedData" type="ClipData;" type-id="ClipData;" visibility="public" abstract="false" virtual="false" static="false">
                 <source-codes />
               </operation>
             </operations>
@@ -431,22 +472,29 @@
           </item>
           <item id="di724976542501129820" cid="C009" type="class" name="ClipBasic" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creation-date="09/04/2014 20:40:22">
             <stereotypes />
-            <tagged-values />
             <associated-diagrams />
             <owned-items />
             <style class="default" />
             <attributes>
-              <attribute id="ab7622fc5ef3445f8b3350f06534e620c293" name="protected var delay" type="int" type-id="int" visibility="private" abstract="false" virtual="false" default-value="0;//每帧播放间隔" />
-              <attribute id="a7681b642178946d490d06f61ec1e5bd0262" name="private var _frameRate" type="int" type-id="int" visibility="private" abstract="false" virtual="false" default-value="30;//帧频" />
-              <attribute id="a99f18a788ef2443580ccae994c3449bf590" name="private var _pivot" type="Point;//注册点" type-id="Point;//注册点" visibility="private" abstract="false" virtual="false" />
-              <attribute id="ac29cdf8a57834d80a049b5dd14c0242c14" name="private var _source" type="IClipDataList;//数据源" type-id="IClipDataList;//数据源" visibility="private" abstract="false" virtual="false" />
-              <attribute id="a913d5cd4d4884e3fb518ba6c4d15d65d574" name="private var _frameAlign" type="String" type-id="Uml.String" visibility="private" abstract="false" virtual="false" default-value="ClipConst.TYPE_NORMAL;//每帧对齐方式" />
-              <attribute id="ab813fdf5114f4c86ba52cee9e27e9bfb302" name="private var _currentFrame" type="Object;//当前帧" type-id="Object;//当前帧" visibility="private" abstract="false" virtual="false" />
+              <attribute id="ab7622fc5ef3445f8b3350f06534e620c293" cid="AT004" name="protected var delay" type="int" type-id="int" visibility="private" abstract="false" virtual="false" static="false" default-value="0;//每帧播放间隔" />
+              <attribute id="a7681b642178946d490d06f61ec1e5bd0262" cid="AT005" name="private var _frameRate" type="int" type-id="int" visibility="private" abstract="false" virtual="false" static="false" default-value="30;//帧频" />
+              <attribute id="a99f18a788ef2443580ccae994c3449bf590" cid="AT006" name="private var _pivot" type="Point;//注册点" type-id="Point;//注册点" visibility="private" abstract="false" virtual="false" static="false" />
+              <attribute id="ac29cdf8a57834d80a049b5dd14c0242c14" cid="AT007" name="private var _source" type="IClipDataList;//数据源" type-id="IClipDataList;//数据源" visibility="private" abstract="false" virtual="false" static="false" />
+              <attribute id="a913d5cd4d4884e3fb518ba6c4d15d65d574" cid="AT008" name="private var _frameAlign" type="String" type-id="Uml.String" visibility="private" abstract="false" virtual="false" static="false" default-value="ClipConst.TYPE_NORMAL;//每帧对齐方式" />
+              <attribute id="ab813fdf5114f4c86ba52cee9e27e9bfb302" cid="AT009" name="private var _currentFrame" type="Object;//当前帧" type-id="Object;//当前帧" visibility="private" abstract="false" virtual="false" static="false" />
+              <attribute id="afb0e9f49805d40f3a00686a25903bb9c350" cid="AT013" name="private var _repeat" type="int" type-id="int" visibility="private" abstract="false" virtual="false" static="false" default-value="-1;//循环次数" />
+              <attribute id="acb0f0f99b38b461d94ab024e23639637151" cid="AT014" name="private var _currentData" type="ClipData;" type-id="ClipData;" visibility="private" abstract="false" virtual="false" static="false" />
             </attributes>
             <operations>
-              <operation id="oe21b399cbdef48caa9a9164e67986742583" name="protected function draw" type="void//渲染某帧" type-id="void//渲染某帧" visibility="public" abstract="false" virtual="false" static="false">
+              <operation id="oe21b399cbdef48caa9a9164e67986742583" cid="OP020" name="protected function draw" type="void//渲染某帧" type-id="void//渲染某帧" visibility="public" abstract="false" virtual="false" static="false">
                 <parameters>
-                  <parameter id="" name="frameName" type="Object" type-id="Uml.Object" default-value="" />
+                  <parameter id="" name="frameName" type="Object" type-id="Uml.Object" />
+                </parameters>
+                <source-codes />
+              </operation>
+              <operation id="o48ddbafdf6e944c39e55ec705cbf7c81747" cid="OP028" name="update" type="void;//最后一帧、每一帧派发事件如果hasEevent" type-id="void;//最后一帧、每一帧派发事件如果hasEevent" visibility="public" abstract="false" virtual="false" static="false">
+                <parameters>
+                  <parameter id="" name="elpased" type="Integer" type-id="Uml.Integer" />
                 </parameters>
                 <source-codes />
               </operation>
@@ -457,24 +505,22 @@
           </item>
           <item id="di271709315250506869" cid="REA005" type="realization" name="实现" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creation-date="09/04/2014 20:53:04">
             <stereotypes />
-            <tagged-values />
             <associated-diagrams />
             <owned-items />
             <style class="default" />
           </item>
           <item id="di196914536935206766" cid="C013" type="class" name="Clip" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creation-date="09/04/2014 20:48:48">
             <stereotypes />
-            <tagged-values />
             <associated-diagrams />
             <owned-items />
             <style class="default" />
             <attributes>
-              <attribute id="a3d644bd7d24b4f8d9e40b2b74414aad8526" name="private var _data" type="*;" type-id="*;" visibility="private" abstract="false" virtual="false" />
+              <attribute id="a3d644bd7d24b4f8d9e40b2b74414aad8526" cid="AT010" name="private var _data" type="*;" type-id="*;" visibility="private" abstract="false" virtual="false" static="false" />
             </attributes>
             <operations>
-              <operation id="ob5e79d5408df4c15906b29df651975d4478" name="protected function parse" type="void ;//解析data" type-id="void ;//解析data" visibility="undefined" abstract="false" virtual="false" static="false">
+              <operation id="ob5e79d5408df4c15906b29df651975d4478" cid="OP021" name="protected function parse" type="void ;//解析data" type-id="void ;//解析data" visibility="undefined" abstract="false" virtual="false" static="false">
                 <parameters>
-                  <parameter id="" name="data" type="*" type-id="*" default-value="" />
+                  <parameter id="" name="data" type="*" type-id="*" />
                 </parameters>
                 <source-codes />
               </operation>
@@ -485,20 +531,18 @@
           </item>
           <item id="di189832329623138612" cid="GNR003" type="generalization" name="继承" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creation-date="09/04/2014 20:48:48">
             <stereotypes />
-            <tagged-values />
             <associated-diagrams />
             <owned-items />
             <style class="default" />
           </item>
           <item id="di180665475795417630" cid="C015" type="class" name="ClipConst" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creation-date="09/04/2014 20:55:27">
             <stereotypes />
-            <tagged-values />
             <associated-diagrams />
             <owned-items />
             <style class="default" />
             <attributes>
-              <attribute id="a9055040020bd4d36a8d1fdb623ef64bc998" name="static const TYPE_NORMAL" type="int" type-id="int" visibility="private" abstract="false" virtual="false" default-value="0;" />
-              <attribute id="a8907e8577d2d445ea38e560ca38b049e933" name="static const ALIGN_NONE" type="String" type-id="Uml.String" visibility="private" abstract="false" virtual="false" default-value="&quot;none&quot;;" />
+              <attribute id="a9055040020bd4d36a8d1fdb623ef64bc998" cid="AT011" name="static const TYPE_NORMAL" type="int" type-id="int" visibility="private" abstract="false" virtual="false" static="false" default-value="0;" />
+              <attribute id="a8907e8577d2d445ea38e560ca38b049e933" cid="AT012" name="static const ALIGN_NONE" type="String" type-id="Uml.String" visibility="private" abstract="false" virtual="false" static="false" default-value="&quot;none&quot;;" />
             </attributes>
             <operations />
             <template-parameters>
@@ -507,7 +551,6 @@
           </item>
           <item id="di685561144302314215" cid="REA004" type="realization" name="实现" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creation-date="09/04/2014 20:52:34">
             <stereotypes />
-            <tagged-values />
             <associated-diagrams />
             <owned-items />
             <style class="default" />
@@ -516,20 +559,18 @@
             <stereotypes>
               <stereotype name="use" />
             </stereotypes>
-            <tagged-values />
             <associated-diagrams />
             <owned-items />
             <style class="default" />
           </item>
-          <item id="di428400254947757093" cid="C016" type="class" name="ClipDataParser" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creation-date="09/04/2014 21:28:20">
+          <item id="di428400254947757093" cid="C016" type="class" name="IClipDataParser" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creation-date="09/04/2014 21:28:20">
             <stereotypes />
-            <tagged-values />
             <associated-diagrams />
             <owned-items />
             <style class="default" />
             <attributes />
             <operations>
-              <operation id="o30918dfc66034d8990c2a00cc7dd0b97854" name="public static function parse" type="Vector.&lt;ClipData&gt;;" type-id="Vector.&lt;ClipData&gt;;" visibility="public" abstract="false" virtual="false" static="false">
+              <operation id="o30918dfc66034d8990c2a00cc7dd0b97854" cid="OP022" name="public static function parse" type="Vector.&lt;ClipData&gt;;" type-id="Vector.&lt;ClipData&gt;;" visibility="public" abstract="false" virtual="false" static="false">
                 <source-codes />
               </operation>
             </operations>
@@ -541,23 +582,21 @@
             <stereotypes>
               <stereotype name="use" />
             </stereotypes>
-            <tagged-values />
             <associated-diagrams />
             <owned-items />
             <style class="default" />
           </item>
           <item id="di644199016605270062" cid="C017" type="class" name="ClipFactory" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creation-date="09/04/2014 21:32:06">
             <stereotypes />
-            <tagged-values />
             <associated-diagrams />
             <owned-items />
             <style class="default" />
             <attributes />
             <operations>
-              <operation id="o7d3112f9d3b14e71ba52fc31c4c5db00638" name="public static function create" type="IClip;" type-id="IClip;" visibility="public" abstract="false" virtual="false" static="false">
+              <operation id="o7d3112f9d3b14e71ba52fc31c4c5db00638" cid="OP023" name="public static function create" type="IClip;" type-id="IClip;" visibility="public" abstract="false" virtual="false" static="false">
                 <parameters>
-                  <parameter id="" name="type" type="String" type-id="Uml.String" default-value="" />
-                  <parameter id="" name="$data" type="*" type-id="*" default-value="" />
+                  <parameter id="" name="type" type="String" type-id="Uml.String" />
+                  <parameter id="" name="$data" type="*" type-id="*" />
                 </parameters>
                 <source-codes />
               </operation>
@@ -570,23 +609,21 @@
             <stereotypes>
               <stereotype name="use" />
             </stereotypes>
-            <tagged-values />
             <associated-diagrams />
             <owned-items />
             <style class="default" />
           </item>
           <item id="di587261941863141241" cid="C018" type="class" name="Client" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creation-date="09/04/2014 21:35:28">
             <stereotypes />
-            <tagged-values />
             <associated-diagrams />
             <owned-items />
             <style class="default" />
             <attributes />
             <operations>
-              <operation id="o4f71cce58e8c4ee3b0c3a8ce99566cc8702" name="private var clip" type="IClip = ClipFactory.create(ClipConst.TYPE_NORMAL, data);" type-id="IClip = ClipFactory.create(ClipConst.TYPE_NORMAL, data);" visibility="public" abstract="false" virtual="false" static="false">
+              <operation id="o4f71cce58e8c4ee3b0c3a8ce99566cc8702" cid="OP024" name="private var clip" type="IClip = ClipFactory.create(data, ClipConst.TYPE_NORMAL)," type-id="IClip = ClipFactory.create(data, ClipConst.TYPE_NORMAL)," visibility="public" abstract="false" virtual="false" static="false">
                 <source-codes />
               </operation>
-              <operation id="o025f80de502f40a9b00318dd56111bf6478" name="clip.play" type=";......do sth...;" type-id=";......do sth...;" visibility="public" abstract="false" virtual="false" static="false">
+              <operation id="o025f80de502f40a9b00318dd56111bf6478" cid="OP025" name="clip.play" type=";......do sth...;" type-id=";......do sth...;" visibility="public" abstract="false" virtual="false" static="false">
                 <source-codes />
               </operation>
             </operations>
@@ -594,10 +631,39 @@
               <source-codes />
             </template-parameters>
           </item>
+          <item id="di234951453331110204" cid="C005" type="class" name="Event" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creation-date="09/05/2014 11:13:22">
+            <stereotypes />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <attributes />
+            <operations />
+            <template-parameters>
+              <source-codes />
+            </template-parameters>
+          </item>
+          <item id="di101002055867413991" cid="E001" type="enumeration" name="ClipEvent" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creation-date="09/05/2014 11:12:54">
+            <stereotypes>
+              <stereotype name="enumeration" />
+            </stereotypes>
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <enumeration-items>
+              <enumeration-item id="a90336f53f1c44d669f627a791564212e713" cid="ENI001" name="Enterfame" />
+              <enumeration-item id="a62bac26e70fe48adb4e15b1a1e0fc680744" cid="ENI002" name="Complete" />
+            </enumeration-items>
+          </item>
+          <item id="di796724540644367749" cid="REA001" type="realization" name="" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creation-date="09/05/2014 11:13:29">
+            <stereotypes />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+          </item>
         </abstract-items>
         <layer name="Default" visible="true" enabled="true" locked="false">
           <item id="di444138550106846842" iid="836c0635170b479090038e2808d25208" creation-date="09/04/2014 20:04:27" order-index="0" type="entity">
-            <layout ax="44.5" ay="18" awidth="351.5" aheight="287.75" x="44.5" y="18" width="351.5" height="287.75" angle="0" />
+            <layout ax="101" ay="-50" awidth="351.5" aheight="332.75" x="101" y="-50" width="351.5" height="332.75" angle="0" />
             <class />
           </item>
           <item id="di246944419662707016" iid="7b4be999729f4f3c9db639e81d835c7d" creation-date="09/04/2014 20:21:06" order-index="1" type="entity">
@@ -609,7 +675,7 @@
             <class />
           </item>
           <item id="di766942730593045049" iid="1b4be27e2f6a40419660361eaacc16ce" creation-date="09/04/2014 20:37:25" order-index="5" type="relation">
-            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" name-position="10,-10" auto-path="" x1="786" y1="120" x2="786" y2="210" start-border-pos="0.624651810584958" end-border-pos="0.125438596491228">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" lock-to-fields="false" name-position="10,-10" auto-path="" x1="786" y1="120" x2="786" y2="210" start-border-pos="0.624651810584958" end-border-pos="0.125438596491228">
               <points>
                 <point x="786" y="120" />
                 <point x="786" y="210" />
@@ -618,26 +684,26 @@
             <relation from="di246944419662707016" from-iid="7b4be999729f4f3c9db639e81d835c7d" to="di152430164961101577" to-iid="54b6b6a7cfd54a51a7caad885333a1f9" />
           </item>
           <item id="di952166546695413225" iid="fbcda44c2a734bb383d65c29645ef09b" creation-date="09/04/2014 20:38:14" order-index="6" type="relation">
-            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" name-position="10,-10" auto-path="" x1="396" y1="133" x2="606" y2="99" start-border-pos="0.349983725725931" end-border-pos="0.80250986884622">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" lock-to-fields="false" name-position="10,-10" auto-path="" x1="452" y1="100" x2="606" y2="86" start-border-pos="0.362577660472477" end-border-pos="0.834262679604923">
               <points>
-                <point x="396" y="133" />
-                <point x="606" y="99" />
+                <point x="452" y="100" />
+                <point x="606" y="86" />
               </points>
             </layout>
             <relation from="di444138550106846842" from-iid="836c0635170b479090038e2808d25208" to="di246944419662707016" to-iid="7b4be999729f4f3c9db639e81d835c7d" />
           </item>
           <item id="di724976542501129820" iid="933a84fb7f6f4f10b2128a3d8f083251" creation-date="09/04/2014 20:40:22" order-index="7" type="entity">
-            <layout ax="-28.875" ay="430" awidth="498.25" aheight="161.5" x="-28.875" y="430" width="498.25" height="161.5" angle="0" />
+            <layout ax="27.625" ay="398.5" awidth="498.25" aheight="203.5" x="27.625" y="398.5" width="498.25" height="203.5" angle="0" />
             <class />
           </item>
           <item id="di456293686304068575" iid="82b01c35a0e74e4a878aa80883c61cc2" creation-date="09/04/2014 20:42:12" order-index="9" type="entity">
             <layout ax="-66" ay="18" awidth="83" aheight="36" x="-66" y="18" width="83" height="36" angle="0" />
           </item>
           <item id="di602928593468616931" iid="35b4eb9505214444a157123da49e99df" creation-date="09/04/2014 20:42:12" order-index="10" type="comment-connector">
-            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" name-position="10,-10" auto-path="" x1="11" y1="54" x2="44" y2="71" start-border-pos="0.518502582986671" end-border-pos="0.953853385123245">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" lock-to-fields="false" name-position="10,-10" auto-path="" x1="17" y1="47" x2="101" y2="69" start-border-pos="0.450673686133491" end-border-pos="0.910426305345267">
               <points>
-                <point x="11" y="54" />
-                <point x="44" y="71" />
+                <point x="17" y="47" />
+                <point x="101" y="69" />
               </points>
             </layout>
             <relation from="di456293686304068575" from-iid="82b01c35a0e74e4a878aa80883c61cc2" to="di444138550106846842" to-iid="836c0635170b479090038e2808d25208" />
@@ -646,7 +712,7 @@
             <layout ax="997.5" ay="39.75" awidth="140" aheight="58.5" x="997.5" y="39.75" width="140" height="58.5" angle="0" />
           </item>
           <item id="di982223390282742630" iid="2b392f72326844bfadc3b836ca33358d" creation-date="09/04/2014 20:42:58" order-index="12" type="comment-connector">
-            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" name-position="10,-10" auto-path="" x1="998" y1="69" x2="965" y2="69" start-border-pos="0.875" end-border-pos="0.375">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" lock-to-fields="false" name-position="10,-10" auto-path="" x1="998" y1="69" x2="965" y2="69" start-border-pos="0.875" end-border-pos="0.375">
               <points>
                 <point x="998" y="69" />
                 <point x="965" y="69" />
@@ -658,7 +724,7 @@
             <layout ax="972.75" ay="238.75" awidth="192.75" aheight="44" x="972.75" y="238.75" width="192.75" height="44" angle="0" />
           </item>
           <item id="di809479617159069805" iid="c9e2babfba0f47d090cdeaf6bdfd4187" creation-date="09/04/2014 20:43:17" order-index="14" type="comment-connector">
-            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" name-position="10,-10" auto-path="" x1="973" y1="258" x2="928" y2="257" start-border-pos="0.891106865622781" end-border-pos="0.388602107404226">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" lock-to-fields="false" name-position="10,-10" auto-path="" x1="973" y1="258" x2="928" y2="257" start-border-pos="0.891106865622781" end-border-pos="0.388602107404226">
               <points>
                 <point x="973" y="258" />
                 <point x="928" y="257" />
@@ -667,17 +733,17 @@
             <relation from="di835345922552430034" from-iid="af478b081e074b948532f741d4358017" to="di152430164961101577" to-iid="54b6b6a7cfd54a51a7caad885333a1f9" />
           </item>
           <item id="di806382398973693119" iid="0b0b101705d54ac89182e6d4538ea298" creation-date="09/04/2014 20:43:45" order-index="15" type="entity">
-            <layout ax="675" ay="430" awidth="221" aheight="110.5" x="675" y="430" width="221" height="110.5" angle="0" />
+            <layout ax="695.5" ay="459.75" awidth="221" aheight="110.5" x="695.5" y="459.75" width="221" height="110.5" angle="0" />
             <class />
           </item>
           <item id="di279379075995997529" iid="764dc1f862f641d889b53eead51835e4" creation-date="09/04/2014 20:45:15" order-index="16" type="entity">
             <layout ax="972.75" ay="459.75" awidth="112" aheight="51" x="972.75" y="459.75" width="112" height="51" angle="0" />
           </item>
           <item id="di135833271953355742" iid="5aff8af41f6b4e4683f8c001c735087e" creation-date="09/04/2014 20:45:15" order-index="17" type="comment-connector">
-            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" name-position="10,-10" auto-path="" x1="973" y1="485" x2="896" y2="485" start-border-pos="0.876225490196078" end-border-pos="0.374434389140272">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" lock-to-fields="false" name-position="10,-10" auto-path="" x1="973" y1="493" x2="916" y2="500" start-border-pos="0.838636510512408" end-border-pos="0.341519869290865">
               <points>
-                <point x="973" y="485" />
-                <point x="896" y="485" />
+                <point x="973" y="493" />
+                <point x="916" y="500" />
               </points>
             </layout>
             <relation from="di279379075995997529" from-iid="764dc1f862f641d889b53eead51835e4" to="di806382398973693119" to-iid="0b0b101705d54ac89182e6d4538ea298" />
@@ -686,41 +752,41 @@
             <layout ax="-156.5" ay="238.75" awidth="138" aheight="67" x="-156.5" y="238.75" width="138" height="67" angle="0" />
           </item>
           <item id="di835858610102128463" iid="3eed4b0cbc5944c4b5a942fe5703e384" creation-date="09/04/2014 20:47:04" order-index="19" type="comment-connector">
-            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" name-position="10,-10" auto-path="" x1="-45" y1="306" x2="116" y2="430" start-border-pos="0.54886377721593" end-border-pos="0.0724987789906274">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" lock-to-fields="false" name-position="10,-10" auto-path="" x1="-35" y1="306" x2="114" y2="398" start-border-pos="0.530201179393824" end-border-pos="0.0431939415517789">
               <points>
-                <point x="-45" y="306" />
-                <point x="116" y="430" />
+                <point x="-35" y="306" />
+                <point x="114" y="398" />
               </points>
             </layout>
             <relation from="di415077205495380940" from-iid="2082a80c9cf74ca197b9e044582a0b59" to="di724976542501129820" to-iid="933a84fb7f6f4f10b2128a3d8f083251" />
           </item>
           <item id="di196914536935206766" iid="9eaf43166a2d4004ac581e654c9610c3" creation-date="09/04/2014 20:48:48" order-index="20" type="entity">
-            <layout ax="35.375" ay="696" awidth="369.75" aheight="93" x="35.375" y="696" width="369.75" height="93" angle="0" />
+            <layout ax="91.875" ay="729" awidth="369.75" aheight="93" x="91.875" y="729" width="369.75" height="93" angle="0" />
             <class />
           </item>
           <item id="di189832329623138612" iid="6d1c22d08bb74db78df69df733d67a94" creation-date="09/04/2014 20:48:48" order-index="21" type="relation">
-            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" name-position="10,-10" auto-path="" x1="220" y1="696" x2="220" y2="592" start-border-pos="0.124830966869506" end-border-pos="0.625125439036628">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" lock-to-fields="false" name-position="10,-10" auto-path="" x1="277" y1="729" x2="277" y2="602" start-border-pos="0.125169033130494" end-border-pos="0.624874560963372">
               <points>
-                <point x="220" y="696" />
-                <point x="220" y="592" />
+                <point x="277" y="729" />
+                <point x="277" y="602" />
               </points>
             </layout>
             <relation from="di196914536935206766" from-iid="9eaf43166a2d4004ac581e654c9610c3" to="di724976542501129820" to-iid="933a84fb7f6f4f10b2128a3d8f083251" />
           </item>
           <item id="di685561144302314215" iid="722f3201f0a14900bd16fce872564c5d" creation-date="09/04/2014 20:52:34" order-index="25" type="relation">
-            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" name-position="10,-10" auto-path="" x1="321" y1="696" x2="675" y2="535" start-border-pos="0.193328197136209" end-border-pos="0.761536058797016">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" lock-to-fields="false" name-position="10,-10" auto-path="" x1="372" y1="729" x2="696" y2="570" start-border-pos="0.189577774553383" end-border-pos="0.751095871040724">
               <points>
-                <point x="321" y="696" />
-                <point x="675" y="535" />
+                <point x="372" y="729" />
+                <point x="696" y="570" />
               </points>
             </layout>
             <relation from="di196914536935206766" from-iid="9eaf43166a2d4004ac581e654c9610c3" to="di806382398973693119" to-iid="0b0b101705d54ac89182e6d4538ea298" />
           </item>
           <item id="di271709315250506869" iid="37b7cdffea744ddba1f38e8bf2c2cb5e" creation-date="09/04/2014 20:53:04" order-index="26" type="relation">
-            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" name-position="10,-10" auto-path="" x1="220" y1="430" x2="220" y2="306" start-border-pos="0.124874560963372" end-border-pos="0.625177809388336">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" lock-to-fields="false" name-position="10,-10" auto-path="" x1="277" y1="398" x2="277" y2="283" start-border-pos="0.125125439036628" end-border-pos="0.624822190611664">
               <points>
-                <point x="220" y="430" />
-                <point x="220" y="306" />
+                <point x="277" y="398" />
+                <point x="277" y="283" />
               </points>
             </layout>
             <relation from="di724976542501129820" from-iid="933a84fb7f6f4f10b2128a3d8f083251" to="di444138550106846842" to-iid="836c0635170b479090038e2808d25208" />
@@ -729,10 +795,10 @@
             <layout ax="-157.5" ay="626" awidth="140" aheight="70" x="-157.5" y="626" width="140" height="70" angle="0" />
           </item>
           <item id="di183105583579089289" iid="ec5785b86ebb40899f2be4650d7ac0e7" creation-date="09/04/2014 20:53:56" order-index="28" type="comment-connector">
-            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" name-position="10,-10" auto-path="" x1="-18" y1="680" x2="45" y2="696" start-border-pos="0.441685921805246" end-border-pos="0.0065662056469611">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" lock-to-fields="false" name-position="10,-10" auto-path="" x1="-18" y1="683" x2="128" y2="729" start-border-pos="0.454892403738839" end-border-pos="0.0243076997644761">
               <points>
-                <point x="-18" y="680" />
-                <point x="45" y="696" />
+                <point x="-18" y="683" />
+                <point x="128" y="729" />
               </points>
             </layout>
             <relation from="di681366325421897052" from-iid="f52ce801ab824b10a0e7164a062f24fa" to="di196914536935206766" to-iid="9eaf43166a2d4004ac581e654c9610c3" />
@@ -745,7 +811,7 @@
             <layout ax="997.5" ay="673" awidth="100" aheight="46" x="997.5" y="673" width="100" height="46" angle="0" />
           </item>
           <item id="di910250262581789698" iid="7a064eda4cc84f58bee9cbc80ae68065" creation-date="09/04/2014 20:56:18" order-index="31" type="comment-connector">
-            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" name-position="10,-10" auto-path="" x1="998" y1="699" x2="916" y2="703" start-border-pos="0.860256692637568" end-border-pos="0.355581158968671">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" lock-to-fields="false" name-position="10,-10" auto-path="" x1="998" y1="699" x2="916" y2="703" start-border-pos="0.860256692637568" end-border-pos="0.355581158968671">
               <points>
                 <point x="998" y="699" />
                 <point x="916" y="703" />
@@ -754,35 +820,35 @@
             <relation from="di464732898896061996" from-iid="f28da49d39064c41bac588c8718158ea" to="di180665475795417630" to-iid="5e08d5f8bfe54f77b5f1d92e3a89b9ad" />
           </item>
           <item id="di691247040920109368" iid="b68e5f68ad5b4c68afa770673885d90b" creation-date="09/04/2014 21:27:37" order-index="32" type="relation">
-            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" name-position="10,-10" auto-path="" x1="786" y1="430" x2="786" y2="294" start-border-pos="0.125565610859729" end-border-pos="0.624561403508772">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" lock-to-fields="false" name-position="10,-10" auto-path="" x1="802" y1="460" x2="789" y2="294" start-border-pos="0.120268670681915" end-border-pos="0.621826439573054">
               <points>
-                <point x="786" y="430" />
-                <point x="786" y="294" />
+                <point x="802" y="460" />
+                <point x="789" y="294" />
               </points>
             </layout>
             <relation from="di806382398973693119" from-iid="0b0b101705d54ac89182e6d4538ea298" to="di152430164961101577" to-iid="54b6b6a7cfd54a51a7caad885333a1f9" />
           </item>
           <item id="di428400254947757093" iid="70bc9535cf56488db89ae6cf616e0260" creation-date="09/04/2014 21:28:20" order-index="33" type="entity">
-            <layout ax="44.5" ay="899" awidth="351.5" aheight="74" x="44.5" y="899" width="351.5" height="74" angle="0" />
+            <layout ax="101" ay="929" awidth="351.5" aheight="74" x="101" y="929" width="351.5" height="74" angle="0" />
             <class />
           </item>
           <item id="di311389967271309753" iid="61894d7a78444eabba412f2f47a3f47f" creation-date="09/04/2014 21:29:29" order-index="34" type="entity">
             <layout ax="-156.5" ay="869" awidth="98" aheight="60" x="-156.5" y="869" width="98" height="60" angle="0" />
           </item>
           <item id="di379514022935034369" iid="10516c6780c34e25af123e48dce7a5ca" creation-date="09/04/2014 21:29:29" order-index="35" type="comment-connector">
-            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" name-position="10,-10" auto-path="" x1="-58" y1="905" x2="44" y2="916" start-border-pos="0.39850107828776" end-border-pos="0.942073100322002">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" lock-to-fields="false" name-position="10,-10" auto-path="" x1="-58" y1="908" x2="101" y2="935" start-border-pos="0.411255391438802" end-border-pos="0.978475003629117">
               <points>
-                <point x="-58" y="905" />
-                <point x="44" y="916" />
+                <point x="-58" y="908" />
+                <point x="101" y="935" />
               </points>
             </layout>
             <relation from="di311389967271309753" from-iid="61894d7a78444eabba412f2f47a3f47f" to="di428400254947757093" to-iid="70bc9535cf56488db89ae6cf616e0260" />
           </item>
           <item id="di757595303281833019" iid="0048fec13c904fa9a5f84a034360af53" creation-date="09/04/2014 21:30:07" order-index="36" type="relation">
-            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" name-position="10,-10" auto-path="" x1="220" y1="789" x2="220" y2="899" start-border-pos="0.625169033130494" end-border-pos="0.124822190611664">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" lock-to-fields="false" name-position="10,-10" auto-path="" x1="277" y1="822" x2="277" y2="929" start-border-pos="0.624830966869506" end-border-pos="0.125177809388336">
               <points>
-                <point x="220" y="789" />
-                <point x="220" y="899" />
+                <point x="277" y="822" />
+                <point x="277" y="929" />
               </points>
             </layout>
             <relation from="di196914536935206766" from-iid="9eaf43166a2d4004ac581e654c9610c3" to="di428400254947757093" to-iid="70bc9535cf56488db89ae6cf616e0260" />
@@ -795,7 +861,7 @@
             <layout ax="1003.5" ay="847" awidth="128" aheight="44" x="1003.5" y="847" width="128" height="44" angle="0" />
           </item>
           <item id="di172597783944979514" iid="88dd7511068e4b03a08fdad79e89a324" creation-date="09/04/2014 21:32:21" order-index="39" type="comment-connector">
-            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" name-position="10,-10" auto-path="" x1="1004" y1="878" x2="976" y2="881" start-border-pos="0.82608379017223" end-border-pos="0.288493347167969">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" lock-to-fields="false" name-position="10,-10" auto-path="" x1="1004" y1="878" x2="976" y2="881" start-border-pos="0.82608379017223" end-border-pos="0.288493347167969">
               <points>
                 <point x="1004" y="878" />
                 <point x="976" y="881" />
@@ -804,7 +870,7 @@
             <relation from="di627143371889511204" from-iid="bcd221d78ff34347ac47d44d172d7b0a" to="di644199016605270062" to-iid="759c91dea1b54be983c54513f99e8ecc" />
           </item>
           <item id="di324108957328814829" iid="9ad10d040b104a00bbfe658e41011c52" creation-date="09/04/2014 21:34:11" order-index="40" type="relation">
-            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" name-position="10,-11" auto-path="" x1="766" y1="869" x2="766" y2="760" start-border-pos="0.124701314217443" end-border-pos="0.625416666666667">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" lock-to-fields="false" name-position="10,-11" auto-path="" x1="766" y1="869" x2="766" y2="760" start-border-pos="0.124701314217443" end-border-pos="0.625416666666667">
               <points>
                 <point x="766" y="869" />
                 <point x="766" y="760" />
@@ -813,20 +879,37 @@
             <relation from="di644199016605270062" from-iid="759c91dea1b54be983c54513f99e8ecc" to="di180665475795417630" to-iid="5e08d5f8bfe54f77b5f1d92e3a89b9ad" />
           </item>
           <item id="di587261941863141241" iid="12bbe3d7f4b44cfdad6bff1639219ec2" creation-date="09/04/2014 21:35:28" order-index="41" type="entity">
-            <layout ax="101" ay="1037" awidth="737" aheight="104" x="101" y="1037" width="737" height="104" angle="0" />
+            <layout ax="101" ay="1075" awidth="737" aheight="104" x="101" y="1075" width="737" height="104" angle="0" />
             <class />
           </item>
           <item id="di922848576453132284" iid="6bb259ed798c46a3bd37e4a104489bbf" creation-date="09/04/2014 21:35:40" order-index="42" type="entity">
             <layout ax="-142" ay="1075" awidth="140" aheight="48" x="-142" y="1075" width="140" height="48" angle="0" />
           </item>
           <item id="di612395289725683871" iid="a489451248d14466b499fb9dc5a22540" creation-date="09/04/2014 21:35:40" order-index="43" type="comment-connector">
-            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" name-position="10,-10" auto-path="" x1="-2" y1="1098" x2="101" y2="1096" start-border-pos="0.368273417154948" end-border-pos="0.858634361853966">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" lock-to-fields="false" name-position="10,-10" auto-path="" x1="-2" y1="1103" x2="101" y2="1108" start-border-pos="0.393834431966146" end-border-pos="0.920823904184195">
               <points>
-                <point x="-2" y="1098" />
-                <point x="101" y="1096" />
+                <point x="-2" y="1103" />
+                <point x="101" y="1108" />
               </points>
             </layout>
             <relation from="di922848576453132284" from-iid="6bb259ed798c46a3bd37e4a104489bbf" to="di587261941863141241" to-iid="12bbe3d7f4b44cfdad6bff1639219ec2" />
+          </item>
+          <item id="di101002055867413991" iid="9328675272864f17a2050f7868b7868f" creation-date="09/05/2014 11:12:54" order-index="44" type="entity">
+            <layout ax="1189" ay="328" awidth="140" aheight="160" x="1189" y="328" width="140" height="160" angle="0" />
+            <enumeration />
+          </item>
+          <item id="di234951453331110204" iid="2d803f97ad704465859a51cf506f1949" creation-date="09/05/2014 11:13:22" order-index="45" type="entity">
+            <layout ax="1189" ay="98.25" awidth="140" aheight="160" x="1189" y="98.25" width="140" height="160" angle="0" />
+            <class />
+          </item>
+          <item id="di796724540644367749" iid="510dd16e4a3a4d2387892a552a678d36" creation-date="09/05/2014 11:13:29" order-index="46" type="relation">
+            <layout line-style="oblique" lock-start-point="true" lock-end-point="false" lock-to-fields="false" name-position="10,-10" auto-path="" x1="1249" y1="328" x2="1254" y2="258" start-border-pos="0.107142857142857" end-border-pos="0.63452388218471">
+              <points>
+                <point x="1249" y="328" />
+                <point x="1254" y="258" />
+              </points>
+            </layout>
+            <relation from="di101002055867413991" from-iid="9328675272864f17a2050f7868b7868f" to="di234951453331110204" to-iid="2d803f97ad704465859a51cf506f1949" />
           </item>
         </layer>
       </diagram>
