@@ -887,21 +887,21 @@
       <owned-items />
       <style class="default" />
     </item>
-    <item id="di205022394897108466" cid="NOD001" type="mind-map-node" name="碰必死跳板" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P978479d830694b0b9456dfbde74ced6d" creation-date="09/05/2014 15:57:25">
+    <item id="di205022394897108466" cid="NOD001" type="mind-map-node" name="碰必死跳板" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P978479d830694b0b9456dfbde74ced6d" creation-date="09/05/2014 15:57:25">
       <stereotypes />
       <tagged-values />
       <associated-diagrams />
       <owned-items />
       <style class="default" />
     </item>
-    <item id="di783730223608953691" cid="EDG001" type="mind-map-edge" name="" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P978479d830694b0b9456dfbde74ced6d" creation-date="09/05/2014 15:57:25">
+    <item id="di783730223608953691" cid="EDG001" type="mind-map-edge" name="" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P978479d830694b0b9456dfbde74ced6d" creation-date="09/05/2014 15:57:25">
       <stereotypes />
       <tagged-values />
       <associated-diagrams />
       <owned-items />
       <style class="default" />
     </item>
-    <item id="di539722012144592594" cid="CMT001" type="comment" name="Comment" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P978479d830694b0b9456dfbde74ced6d" creation-date="09/05/2014 15:57:47">
+    <item id="di539722012144592594" cid="CMT001" type="comment" name="Comment" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P978479d830694b0b9456dfbde74ced6d" creation-date="09/05/2014 15:57:47">
       <stereotypes />
       <tagged-values />
       <associated-diagrams />
@@ -909,7 +909,7 @@
       <style class="default" />
       <comment>如同其名</comment>
     </item>
-    <item id="di392463754505743931" cid="CN001" type="comment-connector" name="" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P978479d830694b0b9456dfbde74ced6d" creation-date="09/05/2014 15:57:47">
+    <item id="di392463754505743931" cid="CN001" type="comment-connector" name="" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P978479d830694b0b9456dfbde74ced6d" creation-date="09/05/2014 15:57:47">
       <stereotypes />
       <tagged-values />
       <associated-diagrams />
