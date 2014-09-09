@@ -121,7 +121,7 @@
 	<!-- devices supported by AIR. If you wish to restrict deployment -->
 	<!-- (i.e., to only mobile devices) then add this element and list -->
 	<!-- only the profiles which your application does support. -->
-	<!-- <supportedProfiles>desktop extendedDesktop mobileDevice extendedMobileDevice</supportedProfiles> -->
+<!-- 	<supportedProfiles>desktop extendedDesktop mobileDevice extendedMobileDevice</supportedProfiles> -->
 
 	<!-- Languages supported by application -->
 	<!-- Only these languages can be specified -->
@@ -281,6 +281,7 @@
 		的 NetworkInfo API-->
 			    <!--<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>-->
 			    <!--<uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>-->
+			    <uses-permission  android:name="android.permission.VIBRATE"/>
 			</manifest>
 			
 		]]></manifestAdditions>
@@ -295,4 +296,6 @@
 		]]></InfoAdditions>
         <requestedDisplayResolution>high</requestedDisplayResolution>
     </iPhone>
+    
+
 </application>
