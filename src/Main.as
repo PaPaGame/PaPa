@@ -5,7 +5,6 @@ package
 	import com.shrimp.framework.managers.StageManager;
 	import com.shrimp.framework.managers.ViewManager;
 	import com.shrimp.framework.ui.controls.Button;
-	import com.shrimp.framework.ui.controls.Label;
 	import com.shrimp.papa.game.constant.ViewType;
 	import com.shrimp.papa.game.view.ViewWelcome;
 	
@@ -40,8 +39,6 @@ package
 			var btn:Button = new Button(this);
 			btn.addEventListener(MouseEvent.CLICK,onMouseClick);
 			
-			lbl = new Label(this,100);
-			lbl.text = "hello";
 //			var sp:Splash = new Splash("assets/splash/splash.swf",onInit,2000);
 //			LayerManager.getLayerByName(LayerManager.LAYER_VIEW).addChild(sp);
 			
@@ -50,11 +47,8 @@ package
 //			PapaCore.getInstance().start();
 		}
 		
-		private var lbl:Label;
-		
 		protected function onMouseClick(event:MouseEvent):void
 		{
-		
 		}
 		
 //		protected function onInit(event:Event=null):void
