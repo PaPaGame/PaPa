@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:62fdbfafee971831fcfabce19b3ebf2f:1/1$ -->
+<TextureAtlas imagePath="test.png">
+    <SubTexture name="back2" x="230" y="141" width="195" height="110"/>
+    <SubTexture name="button-big" x="89" y="812" width="143" height="60" frameX="-6" frameY="0" frameWidth="155" frameHeight="60"/>
+    <SubTexture name="button-shaodang" x="219" y="893" width="88" height="42"/>
+    <SubTexture name="buttton-join" x="234" y="848" width="93" height="43" frameX="-1" frameY="-1" frameWidth="95" frameHeight="45"/>
+    <SubTexture name="di-red1" x="2" y="2" width="110" height="504"/>
+    <SubTexture name="di-red2" x="114" y="2" width="114" height="498"/>
+    <SubTexture name="down" x="331" y="960" width="43" height="41" frameX="0" frameY="-2" frameWidth="45" frameHeight="45"/>
+    <SubTexture name="duihua-di1" x="446" y="266" width="64" height="46" frameX="0" frameY="-1" frameWidth="64" frameHeight="48"/>
+    <SubTexture name="duihua-di2" x="446" y="218" width="64" height="46" frameX="0" frameY="-1" frameWidth="64" frameHeight="48"/>
+    <SubTexture name="edga-1" x="230" y="471" width="182" height="40"/>
+    <SubTexture name="edga-2" x="230" y="437" width="221" height="32"/>
+    <SubTexture name="edga-3" x="2" y="720" width="48" height="34"/>
+    <SubTexture name="fang-1" x="271" y="937" width="58" height="58"/>
+    <SubTexture name="fang-2" x="211" y="937" width="58" height="58"/>
+    <SubTexture name="hanhua" x="89" y="928" width="73" height="63"/>
+    <SubTexture name="hunber-di" x="52" y="720" width="48" height="30"/>
+    <SubTexture name="hunber" x="164" y="928" width="45" height="46"/>
+    <SubTexture name="level-di" x="2" y="614" width="118" height="104" frameX="0" frameY="-6" frameWidth="118" frameHeight="118"/>
+    <SubTexture name="level-di2" x="2" y="508" width="118" height="104" frameX="0" frameY="-6" frameWidth="118" frameHeight="118"/>
+    <SubTexture name="level-line1" x="2" y="812" width="85" height="121" frameX="-1" frameY="-4" frameWidth="87" frameHeight="127"/>
+    <SubTexture name="level-line2" x="230" y="319" width="235" height="56"/>
+    <SubTexture name="level-num" x="2" y="756" width="416" height="54" frameX="-3" frameY="-2" frameWidth="420" frameHeight="58"/>
+    <SubTexture name="pi-1" x="448" y="685" width="55" height="128"/>
+    <SubTexture name="pi-2" x="414" y="471" width="23" height="119"/>
+    <SubTexture name="progressBarBorder" x="230" y="377" width="244" height="32" frameX="0" frameY="-1" frameWidth="244" frameHeight="34"/>
+    <SubTexture name="progressBarInner" x="230" y="411" width="234" height="24" frameX="-5" frameY="-4" frameWidth="244" frameHeight="34"/>
+    <SubTexture name="sweep" x="230" y="76" width="243" height="63"/>
+    <SubTexture name="up" x="467" y="314" width="43" height="41" frameX="-1" frameY="-2" frameWidth="45" frameHeight="45"/>
+    <SubTexture name="xu-line" x="234" y="812" width="162" height="2"/>
+    <SubTexture name="yongbin-1" x="427" y="141" width="73" height="75" frameX="0" frameY="-1" frameWidth="77" frameHeight="77"/>
+    <SubTexture name="yongbin-2" x="2" y="935" width="77" height="77"/>
+    <SubTexture name="yuan-1" x="331" y="904" width="54" height="54"/>
+    <SubTexture name="yuan-2" x="329" y="848" width="54" height="54"/>
+    <SubTexture name="z-1" x="122" y="513" width="290" height="84"/>
+    <SubTexture name="z-2" x="230" y="253" width="214" height="64"/>
+    <SubTexture name="z-3" x="122" y="599" width="352" height="84" frameX="-11" frameY="0" frameWidth="374" frameHeight="84"/>
+    <SubTexture name="z-4" x="234" y="816" width="128" height="30"/>
+    <SubTexture name="z-5" x="230" y="2" width="260" height="72" frameX="-16" frameY="-2" frameWidth="286" frameHeight="74"/>
+    <SubTexture name="z-6" x="122" y="685" width="324" height="69"/>
+    <SubTexture name="z-red" x="89" y="874" width="128" height="52"/>
+</TextureAtlas>
