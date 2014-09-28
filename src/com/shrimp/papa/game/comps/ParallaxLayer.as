@@ -1,6 +1,6 @@
 package com.shrimp.papa.game.comps
 {
-	import com.shrimp.framework.ui.container.Container;
+	import com.shrimp.framework.ui.container.Box;
 	import com.shrimp.papa.interfaces.IRender;
 	
 	import flash.display.DisplayObjectContainer;
@@ -9,7 +9,7 @@ package com.shrimp.papa.game.comps
 	 * @author Sol
 	 * 
 	 */	
-	public class ParallaxLayer extends Container implements IRender
+	public class ParallaxLayer extends Box implements IRender
 	{
 		private var cloudMap:Array;
 		private var scaffoldMap:Array;

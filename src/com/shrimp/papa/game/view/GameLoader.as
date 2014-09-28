@@ -1,7 +1,7 @@
 package com.shrimp.papa.game.view
 {
 	import com.shrimp.framework.managers.StageManager;
-	import com.shrimp.framework.ui.container.Container;
+	import com.shrimp.framework.ui.container.Box;
 	import com.shrimp.framework.ui.controls.Label;
 	import com.shrimp.framework.ui.controls.core.Component;
 	
@@ -13,7 +13,7 @@ package com.shrimp.papa.game.view
 	 * @author Sol
 	 * 
 	 */
-	public class GameLoader extends Container
+	public class GameLoader extends Box
 	{
 		private var tf:Label;
 		
