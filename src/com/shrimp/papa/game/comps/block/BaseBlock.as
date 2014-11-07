@@ -1,7 +1,7 @@
 package com.shrimp.papa.game.comps.block
 {
 	import com.shrimp.framework.ui.controls.core.Component;
-	import com.shrimp.papa.game.comps.role.Player;
+	import com.shrimp.papa.game.comps.human.Human;
 	
 	import flash.display.DisplayObject;
 	import flash.display.DisplayObjectContainer;
@@ -30,7 +30,7 @@ package com.shrimp.papa.game.comps.block
 		 * @return 玩家
 		 * 
 		 */		
-		protected function hitTestUp(p:Player):Player
+		protected function hitTestUp(p:Human):Human
 		{
 			//logic
 			return p;
@@ -38,7 +38,19 @@ package com.shrimp.papa.game.comps.block
 		/**
 		 * @see hitTestUp
 		 */
-		protected function hitTestBottom(p:Player):Player
+		protected function hitTestBottom(p:Human):Human
+		{
+			//logic
+			return p;
+		}
+		
+		protected function hitTestLeft(p:Human):Human
+		{
+			//logic
+			return p;
+		}
+		
+		protected function hitTestRight(p:Human):Human
 		{
 			//logic
 			return p;

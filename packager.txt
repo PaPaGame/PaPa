@@ -1,0 +1,1 @@
+adt -package -target ipa-test -storetype pkcs12 -keystore Your p12.p12 -storepass YourPassWord -provisioning-profile Your mobileprovision.mobileprovision YourAppName.ipa YourAppName-app.xml YourAppName.swf
