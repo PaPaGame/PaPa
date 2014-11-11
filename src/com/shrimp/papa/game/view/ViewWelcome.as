@@ -1,6 +1,7 @@
 package com.shrimp.papa.game.view
 {
 	import com.shrimp.framework.ui.controls.BaseView;
+	import com.shrimp.papa.game.view.welcome.WelcomeBox;
 	
 	import flash.display.DisplayObjectContainer;
 	
@@ -11,10 +12,13 @@ package com.shrimp.papa.game.view
 			super(parent, xpos, ypos);
 		}
 		
-		override protected function showing():void
+		private var instance:WelcomeBox;
+		
+		override protected function endShow():void
 		{
-			super.showing();
-			trace("呈现");
+			super.endShow();
+			instance = new WelcomeBox();
+			addChild(instance);
 		}
 	}
 }

@@ -3,8 +3,11 @@ package
 	import com.shrimp.framework.core.ApplicationBase;
 	import com.shrimp.framework.managers.LayerManager;
 	import com.shrimp.framework.managers.StageManager;
+	import com.shrimp.framework.managers.ViewManager;
 	import com.shrimp.framework.ui.controls.Button;
 	import com.shrimp.papa.game.buff.BuffList;
+	import com.shrimp.papa.game.constant.ViewType;
+	import com.shrimp.papa.game.view.ViewWelcome;
 	
 	import demo.ABSelectorDemo;
 	
@@ -35,22 +38,16 @@ package
 			StageManager.init(this);
 			LayerManager.lazyInit();
 			
-//			ViewManager.regView(ViewType.WELCOME,ViewWelcome);
-//			
-//			ViewManager.getInstance().view = ViewType.WELCOME;
+			ViewManager.regView(ViewType.WELCOME,ViewWelcome);
+			ViewManager.getInstance().view = ViewType.WELCOME;
 			
-			list = new BuffList();
-			
-			var btn:Button = new Button(this);
-			btn.label = "aaaaa"
-			btn.addEventListener(MouseEvent.CLICK,onMouseClick);
+//			list = new BuffList();
+//			var btn:Button = new Button(this);
+//			btn.label = "aaaaa"
+//			btn.addEventListener(MouseEvent.CLICK,onMouseClick);
 			
 //			var sp:Splash = new Splash("assets/splash/splash.swf",onInit,2000);
 //			LayerManager.getLayerByName(LayerManager.LAYER_VIEW).addChild(sp);
-			
-//			PapaCore.eventSender.addEventListener(GameEvent.GAME_INIT, onInit);
-//			PapaCore.getInstance().init();
-//			PapaCore.getInstance().start();
 		}
 		
 		protected function onMouseClick(event:MouseEvent):void
@@ -59,10 +56,5 @@ package
 //			addChild(new ABSelectorDemo());
 			addChild(new BuffDemo());
 		}
-		
-//		protected function onInit(event:Event=null):void
-//		{
-//			trace("hello");
-//		}
 	}
 }
